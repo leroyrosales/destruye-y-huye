@@ -1,5 +1,5 @@
 import Container from '../components/container'
-import MoreAnimals from '../components/more-animals'
+import MoreLocations from '../components/more-locations'
 import HeroPost from '../components/hero-post'
 import Intro from '../components/intro'
 import Layout from '../components/layout'
@@ -26,7 +26,7 @@ export default function Index({ allPosts }) {
               excerpt={heroPost.excerpt}
             />
           )}
-          {morePosts.length > 0 && <MoreAnimals posts={morePosts} />}
+          {morePosts.length > 0 && <MoreLocations posts={morePosts} />}
         </Container>
       </Layout>
     </>

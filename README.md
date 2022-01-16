@@ -1,5 +1,5 @@
-# UT Campus Animals
-## A statically generated blog example using Next.js with Markdown about animals on campus
+# Eastside Project
+## A statically generated blog example using Next.js with Markdown about locations on the Eastside of Austin
 
 This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
 
