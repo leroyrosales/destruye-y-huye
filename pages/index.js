@@ -17,7 +17,7 @@ export default function Index({ allPosts }) {
           <title>{CMS_NAME}</title>
         </Head>
         <Container>
-          {heroPost && (
+          {/* {heroPost && (
             <HeroPost
               title={heroPost.title}
               coverImage={heroPost.coverImage}
@@ -25,7 +25,7 @@ export default function Index({ allPosts }) {
               slug={heroPost.slug}
               excerpt={heroPost.excerpt}
             />
-          )}
+          )} */}
           {morePosts.length > 0 && <MoreLocations posts={morePosts} />}
         </Container>
       </Layout>
