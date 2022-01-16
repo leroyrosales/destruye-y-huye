@@ -3,25 +3,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
-        // UT Brand Colors http://utw10776.utweb.utexas.edu/core-brand/colors/
-        'ut-burntorange': '#bf5700',
-        'ut-charcoal': '#333f48',
-        'ut-white': '#fff',
-        'ut-tangerine': '#f8971f',
-        'ut-sunshine': '#ffd600',
-        'ut-cactus': '#a6cd57',
-        'ut-turtlepond': '#579d42',
-        'ut-turquoise': '#00a9b7',
-        'ut-bluebonnet': '#005f86',
-        'ut-limestone': '#d6d2c4',
-        'ut-shade': '#9cadb7',
-        'ut-shade--t20': '#f9fafb',
-        'ut-charcoal--s40': '#1f262b'
+        "black": "#0a0908",
+        "green": "#004a30",
+        "white": "#f2f4f3",
+        "brown": "#a9927d",
+        "pink": "#f9b3bb",
       },
       spacing: {
         28: '7rem',

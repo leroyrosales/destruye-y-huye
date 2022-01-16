@@ -9,7 +9,7 @@ export default function about() {
         <>
         <Layout>
           <Head>
-            <title>About {CMS_NAME} | UT Austin</title>
+            <title>About {CMS_NAME}</title>
           </Head>
           <Container>
             <PostTitle>About</PostTitle>
