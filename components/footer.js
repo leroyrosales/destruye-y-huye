@@ -1,13 +1,11 @@
 import Container from './container'
+import { CMS_NAME } from '../lib/constants'
 
 export default function Footer() {
   return (
-    <footer className="bg-ut-shade--t20">
+    <footer className="">
       <Container>
         <div className="py-8 flex flex-col lg:flex-row justify-between items-start">
-
-          <img className="mb-8" src="/assets/logos/utexas-primary-horizontal-logo.svg"/>
-
           <div className="flex flex-row justify-between w-full lg:items-center lg:w-1/3">
             <ul className="w-1/2 lg:w-auto">
               <li><a href="https://utexas.edu/" className="hover:underline">UT Home</a></li>
@@ -22,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="py-8 flex flex-row justify-between items-center">
-          <p className="text-sm italic">© The University of Texas at Austin {(new Date().getFullYear())}</p>
+          <p className="text-sm italic">© {CMS_NAME} {(new Date().getFullYear())}</p>
         </div>
       </Container>
     </footer>
