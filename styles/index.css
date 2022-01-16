@@ -12,8 +12,18 @@
 @tailwind utilities;
 /* Stop purging. */
 
-/* Your own custom utilities */
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
 
-body {
-    color: #1f262b;
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
