@@ -28,6 +28,11 @@ export default function Index({ allPosts }) {
             />
           )} */}
           </Container>
+          <Container>
+      <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
+        Locations
+      </h2>
+      </Container>
           <MoreLocations posts={allPosts} />
       </Layout>
     </>
