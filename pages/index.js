@@ -17,6 +17,7 @@ export default function Index({ allPosts }) {
           <title>{CMS_NAME}</title>
         </Head>
         <Container>
+          <Intro/>
           {/* {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -26,8 +27,8 @@ export default function Index({ allPosts }) {
               excerpt={heroPost.excerpt}
             />
           )} */}
+          </Container>
           <MoreLocations posts={allPosts} />
-        </Container>
       </Layout>
     </>
   )

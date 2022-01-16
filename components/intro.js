@@ -3,11 +3,7 @@ import { CMS_NAME } from '../lib/constants'
 export default function Intro() {
   return (
     <>
-      <h4 className="text-center md:text-right text-lg mb-5">A statically generated blog example using{' '}<a
-        href="https://nextjs.org/"
-        className="underline hover:text-ut-burntorange duration-200 transition-colors">Next.js</a>, <a
-        href="https://tailwindcss.com/"
-        className="underline hover:text-ut-burntorange duration-200 transition-colors">TailwindCSS</a>, and Markdown.</h4>
+      <h2 className="text-4xl mb-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor orci dapibus ultrices in iaculis nunc sed augue. Egestas egestas fringilla phasellus faucibus. Nisi est sit amet facilisis magna etiam tempor orci eu.</h2>
     </>
   )
 }
