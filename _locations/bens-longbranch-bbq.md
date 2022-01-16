@@ -1,6 +1,7 @@
 ---
 title: "Ben's Longbranch BBQ"
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+address: "900 E 11th St, Austin, TX 78702"
 coverImage: '/assets/blog/locations/domino-the-cat.jpg'
 ogImage:
   url: '/assets/blog/locations/domino-the-cat.jpg'
