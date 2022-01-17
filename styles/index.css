@@ -12,6 +12,11 @@
 @tailwind utilities;
 /* Stop purging. */
 
+.markdown-styles_markdown__h_8de p,
+p {
+  margin-top: 0;
+}
+
 .fixed-nav {
   position: fixed;
   top: 0;

@@ -2,6 +2,7 @@
 title: 'Brown Berets at Aqua Fest'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 address: "2101 Jesse E. Segovia St, Austin, TX 78702"
+coords: "30.270519, -97.709000"
 coverImage: '/assets/blog/locations/domino-the-cat.jpg'
 ogImage:
   url: '/assets/blog/locations/domino-the-cat.jpg'

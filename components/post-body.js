@@ -16,7 +16,7 @@ export default function PostBody({ coords, content }) {
 
   return (
     <>
-      <section className="grid grid-cols-1 md:grid-cols-2">
+      <section className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
         <div>
            <MapBox coordinates={location} />
         </div>
