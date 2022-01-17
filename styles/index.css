@@ -12,16 +12,27 @@
 @tailwind utilities;
 /* Stop purging. */
 
+body {
+  color: #0a0908;
+}
+
+nav a {
+  @apply text-black md:ml-8 text-lg font-bold mb-4 hover:underline hover:decoration-red hover:decoration-wavy decoration-2;
+}
+
+.active {
+  @apply underline decoration-red decoration-wavy decoration-2
+}
+
 .markdown-styles_markdown__h_8de p,
 p {
   margin-top: 0;
 }
 
 .fixed-nav {
-  position: fixed;
-  top: 0;
   animation-name: fade-in;
   animation-duration: 1s;
+  @apply bg-gradient-to-r fixed top-0;
 }
 
 @keyframes fade-in {
@@ -61,7 +72,7 @@ p {
   top: 0;
   font-style: italic;
   font-weight: 600;
-  color: #fff;
+  color: #f2f4f3;
   z-index: 1;
   opacity: 0;
   width: 100%;

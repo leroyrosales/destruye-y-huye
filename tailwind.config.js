@@ -6,8 +6,10 @@ module.exports = {
         "black": "#0a0908",
         "green": "#004a30",
         "white": "#f2f4f3",
-        "brown": "#a9927d",
-        "pink": "#f9b3bb",
+        "orange": "#EB4F0D",
+        "blue": "#52BDD3",
+        "red": "#DB003B",
+        "yellow": "#FEC121",
       },
       spacing: {
         28: '7rem',

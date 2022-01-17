@@ -18,10 +18,9 @@ export default function Header() {
   };
 
   return (
-    <section className="mt-16 mb-16 md:mb-12">
-
+    <section className="bg-gradient-to-rpy-8 mb-16 py-8">
         <div className={`flex flex-col px-5 md:px-10 z-50 lg:flex-row justify-between lg:items-center ${show ? "w-full fixed-nav bg-white" : ""}`}>
-          <h1 className="text-6xl mb-4 md:text-6xl font-bold tracking-tighter leading-tight md:pr-8">
+          <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-green via-green to-white text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight md:pr-8">
             <Link href="/">
               <a className="hover:underline">{ CMS_NAME }</a>
             </Link>
