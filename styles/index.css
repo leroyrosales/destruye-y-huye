@@ -57,7 +57,6 @@
   font-style: italic;
   font-weight: 600;
   color: #fff;
-  padding: 2rem;
   z-index: 1;
   opacity: 0;
   width: 100%;
@@ -82,4 +81,22 @@
 
 .doc_link:hover::after {
   opacity: 1;
+}
+
+@media (max-width: 900px){
+  .mobile-nav {
+    opacity: 0;
+    background: red;
+    width: 100vw;
+    left: 0;
+    height: 100vh;
+    top: -200%;
+    position: absolute;
+  }
+
+  .mobile-nav.open {
+    opacity: 1;
+    bottom: 0;
+    top: 0;
+  }
 }
