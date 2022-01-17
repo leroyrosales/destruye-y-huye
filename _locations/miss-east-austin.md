@@ -2,7 +2,7 @@
 title: 'Miss East Austin Contest'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 address: "3811 E 12th St, Austin, TX 78721"
-coords: "30.270519, -97.709000"
+coords: "30.2768,-97.6902958"
 coverImage: '/assets/blog/locations/pig-bellmont.jpg'
 ogImage:
   url: '/assets/blog/locations/pig-bellmont.jpg'

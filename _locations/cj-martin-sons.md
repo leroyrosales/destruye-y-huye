@@ -2,7 +2,7 @@
 title: 'C.J. Martin & Sons'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 address: "1799 E 5th St, Austin, TX 78702"
-coords: "30.270519, -97.709000"
+coords: "30.260820, -97.723130"
 coverImage: '/assets/blog/locations/domino-the-cat.jpg'
 ogImage:
   url: '/assets/blog/locations/domino-the-cat.jpg'

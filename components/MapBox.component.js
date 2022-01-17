@@ -19,7 +19,7 @@ export default function MapBox({ coordinates }) {
           width: "100%",
         }}
         center={coordinates}
-        zoom={[13]}      >
+        zoom={[14]}      >
         <Marker
           coordinates={coordinates}
         >
