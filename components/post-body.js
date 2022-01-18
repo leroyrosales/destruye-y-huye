@@ -4,15 +4,7 @@ import MapBox from "./MapBox.component";
 export default function PostBody({ coords, content }) {
   const [lat, lng] = coords.split(",");
 
-  const lngLat = {
-    "lng": 1,
-    "lat": 1
-  };
-
-  const location = Object.create(lngLat);
-
-  location.lng = lng
-  location.lat = lat
+  const location = { lng, lat };
 
   return (
     <>
