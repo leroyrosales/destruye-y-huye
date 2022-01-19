@@ -16,8 +16,15 @@ body {
   color: #0a0908;
 }
 
+h2, h3, h4, h5, h6 {
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-white via-green to-green text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight
+}
+
 nav a {
-  @apply text-black md:ml-8 text-lg font-bold mb-4 hover:underline hover:decoration-red hover:decoration-wavy decoration-2;
+  @apply text-black md:ml-4 xl:ml-6 text-lg font-bold mb-4 hover:underline hover:decoration-red hover:decoration-wavy decoration-2;
+}
+nav a:first-child {
+  @apply ml-0;
 }
 
 .active {
@@ -27,6 +34,7 @@ nav a {
 .markdown-styles_markdown__h_8de p,
 p {
   margin-top: 0;
+  @apply font-medium
 }
 
 .fixed-nav {
@@ -102,17 +110,24 @@ p {
 @media (max-width: 900px){
   .mobile-nav {
     opacity: 0;
-    background: red;
     width: 100vw;
     left: 0;
     height: 100vh;
-    top: -200%;
+    left: -200%;
     position: absolute;
+    z-index: -10;
+    transition-duration: 0.5s;
+    @apply bg-gradient-to-br from-white via-green to-green;
   }
 
   .mobile-nav.open {
     opacity: 1;
     bottom: 0;
-    top: 0;
+    left: 0;
+    @apply z-50 justify-center text-center;
+  }
+
+  .mobile-nav.open a {
+    @apply text-3xl mb-8 text-white;
   }
 }

@@ -12,7 +12,7 @@ export default function Navigation() {
     <>
       <nav>
         <button className="block md:hidden mb-4" onClick={() => toggleNav()}>Menu</button>
-        <div className={`flex flex-col md:flex-row mobile-nav ${navToggle ? "open" : ""}`}>
+        <div className={`flex flex-col lg:flex-row mobile-nav ${navToggle ? "open" : ""}`}>
           <Link href="/">
             <a className={`${router.pathname == "/" ? "active" : ""}`}>Home</a>
           </Link>
