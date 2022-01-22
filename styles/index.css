@@ -31,10 +31,8 @@ nav a:first-child {
   @apply underline decoration-red decoration-wavy decoration-2
 }
 
-.markdown-styles_markdown__h_8de p,
 p {
-  margin-top: 0;
-  @apply font-medium
+  @apply text-lg font-medium mb-6;
 }
 
 .fixed-nav {

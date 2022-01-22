@@ -12,6 +12,8 @@ import { CMS_NAME } from "../../lib/constants";
 import markdownToHtml from "../../lib/markdownToHtml";
 
 export default function Post({ post, morePosts, preview }) {
+  const { title, address, coords, coverImage, content } = post;
+
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
@@ -36,13 +38,11 @@ export default function Post({ post, morePosts, preview }) {
                 />
               </Head>
               <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
-                address={post.address}
+                title={title}
+                address={address}
+                coords={coords}
               />
-              <PostBody content={post.content} coords={post.coords}/>
+              <PostBody content={content} title={title} coverImage={coverImage} />
             </article>
           </>
         )}
@@ -54,9 +54,7 @@ export default function Post({ post, morePosts, preview }) {
 export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug, [
     "title",
-    "date",
     "slug",
-    "author",
     "content",
     "coverImage",
     "address",

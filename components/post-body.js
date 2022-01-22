@@ -1,22 +1,22 @@
-import markdownStyles from "./markdown-styles.module.css";
-import MapBox from "./MapBox.component";
 import Container from "./container";
+import CoverImage from './cover-image.component'
 
-export default function PostBody({ coords, content }) {
-  const [lat, lng] = coords.split(",");
-
-  const location = { lng, lat };
+export default function PostBody({ title, coverImage, content }) {
 
   return (
     <>
       <Container>
         <section className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
           <div>
-            <MapBox coordinates={location} />
+          <CoverImage
+              title={title}
+              src={coverImage}
+              height={600}
+              width={900}
+            />
           </div>
           <div className="mb-8 md:mb-16 sm:mx-0">
             <div
-              className={markdownStyles["markdown"]}
               dangerouslySetInnerHTML={{ __html: content }}
             />
           </div>

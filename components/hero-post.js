@@ -1,6 +1,6 @@
 
 
-import CoverImage from '../components/cover-image'
+import CoverImage from '../components/cover-image.component'
 import Link from 'next/link'
 
 export default function HeroPost({

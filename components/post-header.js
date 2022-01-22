@@ -1,15 +1,16 @@
-import CoverImage from "../components/cover-image";
 import PostTitle from "../components/post-title";
 import Address from "./address.component";
 import Container from "./container";
+import MapBox from "./MapBox.component";
 
 export default function PostHeader({
   title,
-  coverImage,
   address,
-  date,
-  author,
+  coords,
 }) {
+  const [lat, lng] = coords.split(",");
+
+  const location = { lng, lat };
   return (
     <>
       <Container>
@@ -19,13 +20,7 @@ export default function PostHeader({
             <Address address={address} />
           </div>
           <div className="mb-8 md:mb-16 sm:mx-0">
-            <CoverImage
-              title={title}
-              src={coverImage}
-              height={600}
-              width={900}
-              priority
-            />
+            <MapBox coordinates={location} />
           </div>
         </section>
       </Container>
