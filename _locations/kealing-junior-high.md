@@ -1,8 +1,8 @@
 ---
-title: 'Kealing Junior High School'
+title: 'Kealing Junior High School and Moon tower with black lady'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-address: "902 Thompson St, Austin TX 78702"
-coords: "30.2701195,-97.7085496"
+address: "1607 Pennsylvania Ave, Austin, TX 78702"
+coords: "30.2711401,-97.7237462"
 coverImage: '/assets/blog/locations/domino-the-cat.jpg'
 ogImage:
   url: '/assets/blog/locations/domino-the-cat.jpg'
