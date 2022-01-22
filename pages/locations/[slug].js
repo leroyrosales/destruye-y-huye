@@ -28,7 +28,7 @@ export default function Post({ post, morePosts, preview }) {
                 <title>
                   {post.title} | {CMS_NAME}
                 </title>
-                <meta property="og:image" content={post.ogImage.url} />
+                <meta property="og:image" content={post.coverImage} />
 
                 <link
                   href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
@@ -58,7 +58,6 @@ export async function getStaticProps({ params }) {
     "slug",
     "author",
     "content",
-    "ogImage",
     "coverImage",
     "address",
     "coords"
