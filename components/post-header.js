@@ -20,7 +20,7 @@ export default function PostHeader({
             <Address address={address} />
           </div>
           <div className="mb-8 md:mb-16 sm:mx-0">
-            <MapBox coordinates={location} />
+            <MapBox coordinates={location} title={title} />
           </div>
         </section>
       </Container>

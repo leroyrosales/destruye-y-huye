@@ -35,6 +35,14 @@ p {
   @apply text-lg font-medium mb-6;
 }
 
+.marker-popup {
+  visibility: hidden!important;
+}
+
+.marker-popup.visible-popup {
+ visibility: visible!important;
+}
+
 .fixed-nav {
   animation-name: fade-in;
   animation-duration: 1s;
