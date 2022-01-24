@@ -3,7 +3,7 @@ import React from "react";
 export default function ContactForm() {
   return (
     <form name="contact" action="/success" method="POST" data-netlify="true">
-      <input type="hidden" name="survey-form" value="contact" />
+      <input type="hidden" name="survey" value="contact" />
       <div className="flex flex-wrap -mx-3 mb-6">
         <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label className="block uppercase tracking-wide text-xs font-bold mb-2" htmlFor="grid-first-name">
@@ -36,11 +36,10 @@ export default function ContactForm() {
       </div>
       <div className="md:flex md:items-center">
         <div className="md:w-1/3">
-          <button className="shadow bg-green hover:bg-blue focus:shadow-outline text-white font-bold py-2 px-4 rounded" type="button">
+          <button className="shadow bg-green hover:bg-blue focus:shadow-outline text-white font-bold py-2 px-4 rounded" type="submit">
             Send
           </button>
         </div>
-        <div className="md:w-2/3"></div>
       </div>
     </form>
   );
