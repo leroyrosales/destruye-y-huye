@@ -1,28 +1,19 @@
 @tailwind base;
-
-/* Write your own custom base styles here */
-
-/* Start purging... */
 @tailwind components;
-/* Stop purging. */
-
-/* Write you own custom component styles here */
-
-/* Start purging... */
 @tailwind utilities;
-/* Stop purging. */
 
 body {
   color: #0a0908;
 }
 
 h2, h3, h4, h5, h6 {
-  @apply text-transparent bg-clip-text bg-gradient-to-br from-white via-green to-green text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-green via-white to-white text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight
 }
 
 nav a {
   @apply text-black md:ml-4 xl:ml-6 text-lg font-bold mb-4 hover:underline hover:decoration-red hover:decoration-wavy decoration-2;
 }
+
 nav a:first-child {
   @apply ml-0;
 }
