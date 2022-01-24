@@ -8,18 +8,18 @@ export default function PostBody({ title, coverImage, content }) {
       <Container>
         <section className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
           <div>
-          <CoverImage
+            <CoverImage
               title={title}
               src={coverImage}
               height={600}
               width={900}
             />
           </div>
-          <div className="mb-8 md:mb-16 sm:mx-0">
+          <article className="mb-8 md:mb-16 sm:mx-0">
             <div
               dangerouslySetInnerHTML={{ __html: content }}
             />
-          </div>
+          </article>
         </section>
       </Container>
     </>
