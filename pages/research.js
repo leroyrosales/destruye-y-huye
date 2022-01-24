@@ -15,74 +15,18 @@ export default function about() {
           <section className="grid grid-cols-1 xl:grid-cols-2">
             <PostTitle title="Research" />
             <div>
-              <p className="text-lg mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Consequat ac felis donec et odio pellentesque diam. Quis enim
-                lobortis scelerisque fermentum dui faucibus. Nunc eget lorem
-                dolor sed viverra ipsum. Rhoncus est pellentesque elit
-                ullamcorper dignissim. Integer feugiat scelerisque varius morbi
-                enim nunc faucibus a. Tellus orci ac auctor augue mauris augue
-                neque gravida in. Elementum pulvinar etiam non quam lacus
-                suspendisse faucibus. In hendrerit gravida rutrum quisque non.
-                Volutpat diam ut venenatis tellus in metus vulputate eu
-                scelerisque. Felis eget velit aliquet sagittis id consectetur.
-                Metus dictum at tempor commodo ullamcorper a. Nulla facilisi
-                etiam dignissim diam quis enim lobortis scelerisque fermentum.
-                Euismod in pellentesque massa placerat duis ultricies lacus sed
-                turpis. Fusce ut placerat orci nulla pellentesque dignissim enim
-                sit. Donec pretium vulputate sapien nec sagittis aliquam
-                malesuada bibendum arcu. Mauris a diam maecenas sed enim ut sem
-                viverra aliquet. Nunc sed augue lacus viverra vitae congue eu
-                consequat. Ac feugiat sed lectus vestibulum mattis ullamcorper
-                velit. Tortor consequat id porta nibh venenatis cras.
-              </p>
-
-              <p className="mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Consequat ac felis donec et odio pellentesque diam. Quis enim
-                lobortis scelerisque fermentum dui faucibus. Nunc eget lorem
-                dolor sed viverra ipsum. Rhoncus est pellentesque elit
-                ullamcorper dignissim. Integer feugiat scelerisque varius morbi
-                enim nunc faucibus a. Tellus orci ac auctor augue mauris augue
-                neque gravida in. Elementum pulvinar etiam non quam lacus
-                suspendisse faucibus. In hendrerit gravida rutrum quisque non.
-                Volutpat diam ut venenatis tellus in metus vulputate eu
-                scelerisque. Felis eget velit aliquet sagittis id consectetur.
-                Metus dictum at tempor commodo ullamcorper a. Nulla facilisi
-                etiam dignissim diam quis enim lobortis scelerisque fermentum.
-                Euismod in pellentesque massa placerat duis ultricies lacus sed
-                turpis. Fusce ut placerat orci nulla pellentesque dignissim enim
-                sit. Donec pretium vulputate sapien nec sagittis aliquam
-                malesuada bibendum arcu. Mauris a diam maecenas sed enim ut sem
-                viverra aliquet. Nunc sed augue lacus viverra vitae congue eu
-                consequat. Ac feugiat sed lectus vestibulum mattis ullamcorper
-                velit. Tortor consequat id porta nibh venenatis cras.
-              </p>
-
-              <p className="mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Consequat ac felis donec et odio pellentesque diam. Quis enim
-                lobortis scelerisque fermentum dui faucibus. Nunc eget lorem
-                dolor sed viverra ipsum. Rhoncus est pellentesque elit
-                ullamcorper dignissim. Integer feugiat scelerisque varius morbi
-                enim nunc faucibus a. Tellus orci ac auctor augue mauris augue
-                neque gravida in. Elementum pulvinar etiam non quam lacus
-                suspendisse faucibus. In hendrerit gravida rutrum quisque non.
-                Volutpat diam ut venenatis tellus in metus vulputate eu
-                scelerisque. Felis eget velit aliquet sagittis id consectetur.
-                Metus dictum at tempor commodo ullamcorper a. Nulla facilisi
-                etiam dignissim diam quis enim lobortis scelerisque fermentum.
-                Euismod in pellentesque massa placerat duis ultricies lacus sed
-                turpis. Fusce ut placerat orci nulla pellentesque dignissim enim
-                sit. Donec pretium vulputate sapien nec sagittis aliquam
-                malesuada bibendum arcu. Mauris a diam maecenas sed enim ut sem
-                viverra aliquet. Nunc sed augue lacus viverra vitae congue eu
-                consequat. Ac feugiat sed lectus vestibulum mattis ullamcorper
-                velit. Tortor consequat id porta nibh venenatis cras.
-              </p>
+              - Austin’s history
+              http://www.austinlibrary.com/ahc/begin/default.htm
+              https://austinrev.org/east-austin-history/
+              http://www.austinlibrary.com/ahc/desegregation/index.cfm?action=year&yr=1953
+              https://www.vice.com/en/article/nnqdk7/austin-was-built-to-be-segregated
+              https://projects.statesman.com/news/economic-mobility/
+              https://medium.com/the-healthy-city/keep-austin-divided-a-foundation-of-segregation-af40e5b35c3f
+              https://www.centralaustincdc.org/diversity/diversity.htm
+              https://www.preservationaustin.org/news?offset=1614186000898
+              https://www.kut.org/austin/2017-01-19/staring-down-development-neighbors-seek-historical-recognition-for-emancipation-park
+              https://reclaimingmemoriestx.blog/ritual-recuerdo-resistencia-online-video-art-exhibit/
+              https://ahc.access.preservica.com/index.php/SO_6cd456b4-9406-4815-9975-b2931f9847c3/
             </div>
           </section>
         </Container>
