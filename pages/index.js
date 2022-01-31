@@ -1,7 +1,7 @@
 import Container from '../components/container'
 import MoreLocations from '../components/more-locations'
 import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
+import Intro from '../components/intro.component'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'

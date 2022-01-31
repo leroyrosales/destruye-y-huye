@@ -1,4 +1,4 @@
-import PostTitle from "../components/post-title";
+import PostTitle from "../components/post-title.component";
 import Address from "./address.component";
 import Container from "./container";
 import MapBox from "./MapBox.component";

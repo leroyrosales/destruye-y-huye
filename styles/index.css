@@ -17,12 +17,17 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
-  @apply text-transparent bg-clip-text bg-gradient-to-br from-white via-green to-green text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight
+  @apply text-transparent bg-clip-text bg-gradient-to-br from-white via-green to-green text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight;
+}
+
+h3 {
+  @apply text-3xl mb-4 md:text-5xl leading-loose;
 }
 
 nav a {
   @apply text-black md:ml-4 xl:ml-6 text-lg font-bold mb-4 hover:underline hover:decoration-red hover:decoration-wavy decoration-2;
 }
+
 nav a:first-child {
   @apply ml-0;
 }
@@ -32,7 +37,7 @@ nav a:first-child {
 }
 
 p {
-  @apply text-lg font-medium mb-6;
+  @apply text-lg font-medium mb-8;
 }
 
 .marker-popup {
