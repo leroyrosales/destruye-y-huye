@@ -10,13 +10,12 @@ export default function about() {
     <>
       <Layout>
         <Head>
-          <title>Survey | {CMS_NAME}</title>
+          <title>Succcess | {CMS_NAME}</title>
         </Head>
         <Container>
           <section className="grid grid-cols-1 xl:grid-cols-2">
-            <PostTitle title="Survey" />
+            <PostTitle title="Thank you for your submission!" />
             <div>
-              <ContactForm />
             </div>
           </section>
         </Container>
