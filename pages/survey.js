@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import PostTitle from "../components/post-title.component";
-import ContactForm from "../components/contact-form.component";
+import Survey from "../components/survey.component";
 
 export default function about() {
   return (
@@ -16,7 +16,7 @@ export default function about() {
           <section className="grid grid-cols-1 xl:grid-cols-2">
             <PostTitle title="Survey" />
             <div>
-              <ContactForm />
+              <Survey />
             </div>
           </section>
         </Container>
