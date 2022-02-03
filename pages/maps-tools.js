@@ -9,11 +9,11 @@ export default function MapsAndTools() {
     <>
       <Layout>
         <Head>
-          <title>Maps, software & online tools | {CMS_NAME}</title>
+          <title>Maps, software &amp; online tools | {CMS_NAME}</title>
         </Head>
         <Container>
           <section className="grid grid-cols-1 xl:grid-cols-2">
-            <PostTitle title="Maps, software & online tools" />
+            <PostTitle title="Maps, software &amp; online tools" />
             <div>
               City of Austin Property Profile web map
               https://www.austintexas.gov/GIS/PropertyProfile/ Moon Tower

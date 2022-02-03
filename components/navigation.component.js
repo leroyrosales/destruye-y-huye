@@ -22,9 +22,6 @@ export default function Navigation() {
           <Link href="/locations">
             <a className={`${router.pathname == "/locations" ? "active" : ""}`}>Locations</a>
           </Link>
-          <Link href="/plan-a-visit">
-            <a className={`${router.pathname == "/plan-a-visit" ? "active" : ""}`}>Plan A Visit</a>
-          </Link>
           <Link href="/research">
             <a className={`${router.pathname == "/research" ? "active" : ""}`}>Research</a>
           </Link>

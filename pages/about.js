@@ -74,7 +74,12 @@ export default function about() {
               <p>
                 Special thank you to the Austin History Center staff who
                 provided time, resources and expertise to my research at Austin
-                History Center Reading Room.
+                History Center Reading Room. Partner Collaborator Augzoo logo
+                (www.augzoo.com) Social Media: IG, Twitter Download on the App
+                Store Graphic (download link or opening app) Project Credits
+                Author/Artist: Adrian Aguilera (www.adrianaguilera.com) Digital
+                Consultant: Rachel Stuckey (rachelstuckey.net) Web Developer:
+                Leroy Rosales ( )
               </p>
             </div>
           </section>
