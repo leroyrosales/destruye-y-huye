@@ -1,8 +1,7 @@
 import Container from "./container";
-import CoverImage from './cover-image.component'
+import CoverImage from "./cover-image.component";
 
-export default function PostBody({ title, coverImage, content }) {
-
+export default function PostBody({ title, coverImage, gallery, content }) {
   return (
     <>
       <Container>
@@ -14,11 +13,12 @@ export default function PostBody({ title, coverImage, content }) {
               height={600}
               width={900}
             />
+            {gallery.map((img, i) => (
+              <CoverImage key={i} src={img} />
+            ))}
           </div>
           <article className="mb-8 md:mb-16 sm:mx-0">
-            <div
-              dangerouslySetInnerHTML={{ __html: content }}
-            />
+            <div dangerouslySetInnerHTML={{ __html: content }} />
           </article>
         </section>
       </Container>

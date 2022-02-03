@@ -11,8 +11,8 @@ import Head from "next/head";
 import { CMS_NAME } from "../../lib/constants";
 import markdownToHtml from "../../lib/markdownToHtml";
 
-export default function Post({ post, morePosts, preview }) {
-  const { title, address, coords, coverImage, content } = post;
+export default function Post({ post, preview }) {
+  const { title, address, coords, coverImage, content, gallery } = post;
 
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
@@ -42,7 +42,7 @@ export default function Post({ post, morePosts, preview }) {
                 address={address}
                 coords={coords}
               />
-              <PostBody content={content} title={title} coverImage={coverImage} />
+              <PostBody content={content} title={title} coverImage={coverImage} gallery={gallery} />
             </article>
           </>
         )}
@@ -58,7 +58,8 @@ export async function getStaticProps({ params }) {
     "content",
     "coverImage",
     "address",
-    "coords"
+    "coords",
+    "gallery"
   ]);
   const content = await markdownToHtml(post.content || "");
 
