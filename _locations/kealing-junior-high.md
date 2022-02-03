@@ -1,9 +1,8 @@
 ---
 title: 'Kealing Junior High School and Moon tower with black lady'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 address: "1607 Pennsylvania Ave, Austin, TX 78702"
 coords: "30.2711401,-97.7237462"
-coverImage: '/assets/blog/locations/domino-the-cat.jpg'
+coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

@@ -1,9 +1,8 @@
 ---
 title: 'Miss East Contest at Givens pool'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 address: "3811 E 12th St, Austin, TX 78721"
 coords: "30.2768,-97.6902958"
-coverImage: '/assets/blog/locations/pig-bellmont.jpg'
+coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
 ---
 
 Photograph of a model on stage at the Miss East Austin Contest at Givens Pool in 1968. A photographer is seen in front of her and a man is seated next to the stage.

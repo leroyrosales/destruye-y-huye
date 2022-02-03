@@ -1,9 +1,8 @@
 ---
 title: 'East Side Story Foundation'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 address: "2209 Rosewood Ave, Austin, TX 78702"
 coords: "30.272952,-97.713788"
-coverImage: '/assets/blog/locations/domino-the-cat.jpg'
+coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

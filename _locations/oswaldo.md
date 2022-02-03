@@ -1,9 +1,8 @@
 ---
 title: 'Oswaldo "A.B." Cantu Pan Am Recreation Center'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 address: "2100 E. Third, Austin, TX 78702"
 coords: "30.2581069,-97.7228977"
-coverImage: '/assets/blog/locations/pig-bellmont.jpg'
+coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
 ---
 
 Children, aged about 10-13 play flag football at the Pan Am Recreation Center. A few boys have jerseys that say "Pan Am Aces" on the front; the rest play in plain clothes.

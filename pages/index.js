@@ -18,15 +18,6 @@ export default function Index({ allPosts }) {
         </Head>
         <Container>
           <Intro/>
-          {/* {heroPost && (
-            <HeroPost
-              title={heroPost.title}
-              coverImage={heroPost.coverImage}
-              date={heroPost.date}
-              slug={heroPost.slug}
-              excerpt={heroPost.excerpt}
-            />
-          )} */}
           </Container>
           <Container>
       <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
@@ -47,7 +38,6 @@ export async function getStaticProps() {
     'slug',
     'author',
     'coverImage',
-    'excerpt',
   ])
 
   return {
