@@ -13,7 +13,7 @@ export default function PostBody({ title, coverImage, gallery, content }) {
               height={600}
               width={900}
             />
-            {gallery.map((img, i) => (
+            {gallery?.map((img, i) => (
               <CoverImage key={i} src={img} />
             ))}
           </div>

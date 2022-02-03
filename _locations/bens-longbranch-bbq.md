@@ -2,7 +2,7 @@
 title: "Ben's Longbranch Bar-B-Que"
 address: "900 E 11th St, Austin, TX 78702"
 coords: "30.270090, -97.731270"
-coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
+coverImage: '/assets/locations/bens-bbq/bens-bbq-1.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
