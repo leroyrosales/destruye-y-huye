@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ReactMapboxGl, { Popup, Marker, Layer, Feature } from "react-mapbox-gl";
+import ReactMapboxGl, { Popup, Marker, ZoomControl, Layer, Feature } from "react-mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 require("mapbox-gl/dist/mapbox-gl.css");
@@ -27,6 +27,7 @@ export default function MapBox({ title, coordinates }) {
         center={coordinates}
         zoom={[14]}
       >
+        <ZoomControl/>
         <Popup
           coordinates={coordinates}
           offset={{
