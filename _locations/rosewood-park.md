@@ -2,7 +2,13 @@
 title: "Rosewood Park"
 address: "2300 Rosewood Ave, Austin, TX 78702"
 coords: "30.270682,-97.71419"
-coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
+coverImage: '/assets/locations/rosewood-park/rosewood-park-1.jpg'
+gallery: [
+    '/assets/locations/rosewood-park/rosewood-park-2.jpg',
+    '/assets/locations/rosewood-park/rosewood-park-3.jpg',
+    '/assets/locations/rosewood-park/rosewood-park-4.jpg',
+    '/assets/locations/rosewood-park/rosewood-park-5.jpg'
+]
 ---
 
 Photograph of children playing at a Rosewood Park baseball field. The boys form one circle by holding hands with each around the pitching mound and a second circle by holding hands around home plate (on the left) other while the girls form a third circle by holding hands with each other around the path from home plate to first base. Parents of both sexes observe and instruct. A bicycle is visible on the lower left. The view of the field is from the first base bleachers, looking toward left field. A car and a few homes are visible beyond left field.

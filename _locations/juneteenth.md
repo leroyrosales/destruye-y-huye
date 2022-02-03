@@ -2,7 +2,10 @@
 title: "Juneteenth Celebration"
 address: "1900 Rosewood Ave, Austin, TX 78702"
 coords: "30.269917,-97.7188694"
-coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
+coverImage: '/assets/locations/juneteenth/juneteenth-1.jpg'
+gallery: [
+    '/assets/locations/juneteenth/juneteenth-3.jpg'
+]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
