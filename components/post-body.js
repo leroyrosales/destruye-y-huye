@@ -1,9 +1,18 @@
+import { useState } from "react";
 import Container from "./container";
 import CoverImage from "./cover-image.component";
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import ModalImage from "react-modal-image";
+// import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+// import ModalImage from "react-modal-image";
+
+import Modal from "./modal.component";
 
 export default function PostBody({ title, coverImage, gallery, content }) {
+  const [clickedImg, setClickedImg] = useState(null);
+
+  const handleClick = (img, i) => {
+    setClickedImg(img);
+  };
+
   return (
     <>
       <Container>
@@ -16,15 +25,14 @@ export default function PostBody({ title, coverImage, gallery, content }) {
               width={900}
             />
             {gallery?.map((img, i) => (
-              <ModalImage
-                small={img}
-                large={img}
-                alt="Hello World!"
-                key={i}
-                hideDownload={true}
-                showRotate={true}
-              />
+              <img src={img} onClick={() => handleClick(img, i)} />
             ))}
+            {clickedImg && (
+              <Modal
+                clickedImg={clickedImg}
+                setClickedImg={setClickedImg}
+              />
+            )}
           </div>
           <article className="mb-8 md:mb-16 sm:mx-0">
             <div dangerouslySetInnerHTML={{ __html: content }} />
