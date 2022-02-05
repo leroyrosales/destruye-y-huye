@@ -47,7 +47,7 @@ export default function Modal({ clickedImg, setClickedImg }) {
                       </button>
                     </div>
                     <TransformComponent>
-                      <img src={clickedImg.image} alt="bigger pic" />
+                      <img src={clickedImg.image} alt={clickedImg.caption} />
                     </TransformComponent>
                   </div>
                 )}

@@ -15,26 +15,17 @@ export default function PostBody({ title, coverImage, gallery, content }) {
     <>
       <Container>
         <section className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
-          <div>
-            <CoverImage
-              title={title}
-              src={coverImage}
-              height={600}
-              width={900}
-            />
-            {gallery?.map((img, i) => (
+          {gallery?.map((img, i) => (
+            <div>
               <img src={img.image} onClick={() => handleClick(img, i)} />
-            ))}
-            {clickedImg && (
-              <Modal
-                clickedImg={clickedImg}
-                setClickedImg={setClickedImg}
-              />
-            )}
-          </div>
-          <article className="mb-8 md:mb-16 sm:mx-0">
-            <div dangerouslySetInnerHTML={{ __html: content }} />
-          </article>
+              <figcaption>
+                {img.caption}
+              </figcaption>
+            </div>
+          ))}
+          {clickedImg && (
+            <Modal clickedImg={clickedImg} setClickedImg={setClickedImg} />
+          )}
         </section>
       </Container>
     </>
