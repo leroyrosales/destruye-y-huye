@@ -35,11 +35,11 @@ p {
   @apply mb-8;
 }
 
-a {
+main a {
   @apply underline text-green;
 }
 
-a:hover {
+main a:hover {
   @apply decoration-blue decoration-wavy decoration-2
 }
 

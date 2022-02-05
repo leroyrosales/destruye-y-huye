@@ -1,5 +1,5 @@
 import Container from '../components/container'
-import MoreLocations from '../components/more-locations'
+import MoreLocations from '../components/more-locations.component'
 import Intro from '../components/intro.component'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'

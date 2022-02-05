@@ -1,4 +1,3 @@
-import CoverImage from "./cover-image.component";
 import Link from "next/link";
 
 export default function PostPreview({ title, coverImage, slug }) {
@@ -13,7 +12,7 @@ export default function PostPreview({ title, coverImage, slug }) {
         <div>
           <h3 className="block h-full">
             <Link as={`/locations/${slug}`} href="/locations/[slug]">
-              <a className="h-full">{title}</a>
+              <a className="text-white no-underline h-full">{title}</a>
             </Link>
           </h3>
         </div>
