@@ -11,6 +11,7 @@ export default function PostBody({ title, coverImage, gallery, content }) {
 
   const handleClick = (img, i) => {
     setClickedImg(img);
+    document.body.style.overflow = "hidden";
   };
 
   return (

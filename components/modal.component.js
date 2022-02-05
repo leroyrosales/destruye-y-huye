@@ -5,6 +5,7 @@ export default function Modal({ clickedImg, setClickedImg }) {
   const handleClick = (e) => {
     if (e.target.classList.contains("close")) {
       setClickedImg(null);
+      document.body.style.overflow = "visible";
     }
   };
 
@@ -15,7 +16,7 @@ export default function Modal({ clickedImg, setClickedImg }) {
           {/*content*/}
           <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
             {/*body*/}
-            <div className="relative p-6 flex-auto">
+            <div className="relative p-4 flex-auto">
               <TransformWrapper
                 initialScale={1}
                 initialPositionX={0}
@@ -62,7 +63,7 @@ export default function Modal({ clickedImg, setClickedImg }) {
           </div>
         </div>
       </div>
-      <div className="opacity-75 fixed inset-0 z-40 bg-black"></div>
+      <div className="opacity-90 fixed inset-0 z-40 bg-black"></div>
     </>
   );
 }
