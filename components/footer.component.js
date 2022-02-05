@@ -10,7 +10,6 @@ export default function Footer() {
             <ul className="w-1/2 lg:w-auto">
               <li><a href="#" className="hover:underline">City of Austin</a></li>
               <li><a href="#" className="hover:underline">Museum of Human Achievement</a></li>
-              <li><a href="https://get.adobe.com/reader/" className="hover:underline">Adobe Reader</a></li>
             </ul>
           </div>
         </div>

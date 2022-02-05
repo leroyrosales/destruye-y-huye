@@ -74,13 +74,21 @@ export default function about() {
               <p>
                 Special thank you to the Austin History Center staff who
                 provided time, resources and expertise to my research at Austin
-                History Center Reading Room. Partner Collaborator Augzoo logo
-                (www.augzoo.com) Social Media: IG, Twitter Download on the App
-                Store Graphic (download link or opening app) Project Credits
-                Author/Artist: Adrian Aguilera (www.adrianaguilera.com) Digital
-                Consultant: Rachel Stuckey (rachelstuckey.net) Web Developer:
-                Leroy Rosales ( )
+                History Center Reading Room.
               </p>
+              <ul>
+                  <li>Partner Collaborator Augzoo logo (<a href="https://www.augzoo.com" target="_blank">www.augzoo.com</a>)</li>
+                  <li>
+                    Social Media: IG, Twitter Download on the App Store Graphic
+                    (download link or opening app)
+                  </li>
+                </ul>
+              <h3>Project Credits</h3>
+              <ul>
+                <li>Author/Artist: Adrian Aguilera (<a href="https://www.adrianaguilera.com" target="_blank">www.adrianaguilera.com</a>)</li>
+                <li>Digital Consultant: Rachel Stuckey (<a href="https://rachelstuckey.net" target="_blank">www.rachelstuckey.net</a>)</li>
+                <li>Web Developer: Leroy Rosales (<a href="https://leroyrosales.com" target="_blank">leroyrosales.com</a>)</li>
+              </ul>
             </div>
           </section>
         </Container>

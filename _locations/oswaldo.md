@@ -20,7 +20,3 @@ gallery: [
 ---
 
 The Pan American Recreation Center was opened in June 1942 as the first Latin American Recreation Center in Austin and run under the auspices of the Federated Latin American Club and directed by the Austin Recreation Department. The name "Pan American Recreation Center" was chosen by the executive committee during a center naming contest. On September 7, 1956, a new Pan American Recreation Center was formally dedicated at 2100 East 3rd Street, just west of the old location and where it currently exists today. The building adjoins Zavala School and was built at a cost of $155,261. The Hillside Theater was later built and completed in June 1958.
-
-Photograph of a band performing on a stage before a large audience seated on the lawn at the Pan American Recreation Center Hillside Program.
-
-The Pan American Recreation Center was opened in June 1942 as the first Latin American Recreation Center in Austin and run under the auspices of the Federated Latin American Club and directed by the Austin Recreation Department. The name "Pan American Recreation Center" was chosen by the executive committee during a center naming contest. On September 7, 1956, a new Pan American Recreation Center was formally dedicated at 2100 East 3rd Street, just west of the old location and where it currently exists today. The building adjoins Zavala School and was built at a cost of $155,261. The Hillside Theater was later built and completed in June 1958.

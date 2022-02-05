@@ -4,6 +4,7 @@
 
 body {
   color: #0a0908;
+  @apply text-lg font-medium;
 }
 
 :focus {
@@ -19,7 +20,7 @@ h3 {
 }
 
 nav a {
-  @apply text-black lg:ml-4 xl:ml-6 text-lg font-bold mb-4 hover:underline hover:decoration-blue hover:decoration-wavy decoration-2;
+  @apply text-black no-underline lg:ml-4 xl:ml-6 text-lg font-bold mb-4 hover:underline hover:decoration-blue hover:decoration-wavy decoration-2;
 }
 
 nav a:first-of-type {
@@ -31,7 +32,15 @@ nav a:first-of-type {
 }
 
 p {
-  @apply text-lg font-medium mb-8;
+  @apply mb-8;
+}
+
+a {
+  @apply underline text-green;
+}
+
+a:hover {
+  @apply decoration-blue decoration-wavy decoration-2
 }
 
 button[type="submit"],

@@ -1,4 +1,4 @@
-import Footer from '../components/footer'
+import Footer from '../components/footer.component'
 import Meta from '../components/meta'
 import Header from '../components/header.component'
 
