@@ -4,10 +4,20 @@ export default function Survey() {
   return (
     <form name="survey" action="/success" method="POST" data-netlify="true">
       <input type="hidden" value="survey" />
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" name="firstname" id="firstname" placeholder="First name" />
-        <input type="text" name="lastname" id="lastname" placeholder="Last name" />
+      <label htmlFor="name">Full Name:</label>
+      <div className="grid gap-4 grid-cols-2">
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="First name"
+        />
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="Last name"
+        />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
@@ -32,7 +42,6 @@ export default function Survey() {
       </div>
       <div>
         <label htmlFor="age">Which category below includes your age?</label>{" "}
-
         <select name="age" id="age">
           <option value="" selected disabled>
             - Select -
@@ -51,7 +60,6 @@ export default function Survey() {
           Are you Mexican, Mexican-American, Chicano, Puerto Rican, Cuban,
           Cuban-American, or some other Spanish, Hispanic, or Latino group?
         </label>{" "}
-
         <select name="spanish-ethnicity" id="spanish-ethnicity">
           <option value="" selected disabled>
             - Select -
@@ -78,7 +86,6 @@ export default function Survey() {
           Indigenous / First Nations, Other, Native Hawaiian / Pacific islander,
           White, other race?
         </label>{" "}
-
         <select name="ethnicity" id="ethnicity">
           <option value="" selected disabled>
             - Select -
@@ -104,7 +111,6 @@ export default function Survey() {
         <label htmlFor="visited">
           Have you visited locations of the East: Sun-Rise AR Intervention?
         </label>{" "}
-
         <select name="visited" id="visited">
           <option value="" selected disabled>
             - Select -
@@ -118,16 +124,14 @@ export default function Survey() {
           If yes, how was your experience? Could you describe it on your own
           words?:
         </label>{" "}
-
-        <textarea name="experience" id="experience"></textarea>
+        <textarea rows="3" name="experience" id="experience"></textarea>
       </div>
       <div>
         <label htmlFor="no-visit">
           If no, have you had already make plans to visit any of the locations
           and which one(s)?
         </label>{" "}
-
-        <textarea name="no-visit" id="no-visit"></textarea>
+        <textarea rows="3" name="no-visit" id="no-visit"></textarea>
       </div>
       <div>
         <label htmlFor="interventions">
@@ -135,21 +139,18 @@ export default function Survey() {
           potential interventions might we send back in time to revive the
           futures of East Austin neighborhoods?
         </label>{" "}
-
-        <textarea name="interventions" id="interventions"></textarea>
+        <textarea rows="3" name="interventions" id="interventions"></textarea>
       </div>
       <div>
         <label htmlFor="anything-else">
           Is there anything else you would like us to know?
         </label>{" "}
-
         <input type="text" name="anything-else" id="anything-else" />
       </div>
       <div>
         <label htmlFor="referral">
           How did you hear about the East: Sun-Rise ARI?
         </label>{" "}
-
         <input type="text" name="referral" id="referral" />
       </div>
       <div>
@@ -157,14 +158,12 @@ export default function Survey() {
           Is there anything we could have done to make your event experience
           easier or more convenient?
         </label>{" "}
-
-        <textarea name="improvements" id="improvements"></textarea>
+        <textarea rows="3" name="improvements" id="improvements"></textarea>
       </div>
       <div>
         <label htmlFor="recommendation">
           Would you like to you recommend this project to a family or a friend?
         </label>{" "}
-
         <select name="recommendation" id="recommendation">
           <option value="" selected disabled>
             - Select -
@@ -174,7 +173,7 @@ export default function Survey() {
         </select>
       </div>
       <div>
-        <button type="submit">Send</button>
+        <button type="submit">Submit Answers</button>
       </div>
     </form>
   );
