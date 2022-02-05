@@ -23,7 +23,7 @@ export default function PostBody({ title, coverImage, gallery, content }) {
               width={900}
             />
             {gallery?.map((img, i) => (
-              <img src={img} onClick={() => handleClick(img, i)} />
+              <img src={img.image} onClick={() => handleClick(img, i)} />
             ))}
             {clickedImg && (
               <Modal
