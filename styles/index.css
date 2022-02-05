@@ -7,7 +7,7 @@ body {
 }
 
 :focus {
-  @apply outline-orange;
+  @apply outline-green;
 }
 
 h2, h3, h4, h5, h6 {
@@ -19,7 +19,7 @@ h3 {
 }
 
 nav a {
-  @apply text-black md:ml-4 xl:ml-6 text-lg font-bold mb-4 hover:underline hover:decoration-red hover:decoration-wavy decoration-2;
+  @apply text-black md:ml-4 xl:ml-6 text-lg font-bold mb-4 hover:underline hover:decoration-blue hover:decoration-wavy decoration-2;
 }
 
 nav a:first-child {
@@ -27,13 +27,14 @@ nav a:first-child {
 }
 
 .active {
-  @apply underline decoration-red decoration-wavy decoration-2
+  @apply underline decoration-blue decoration-wavy decoration-2
 }
 
 p {
   @apply text-lg font-medium mb-8;
 }
 
+button[type="submit"],
 button {
   @apply mr-2 mb-2 bg-green hover:bg-blue text-white font-bold py-2 px-4 rounded;
 }
@@ -61,63 +62,26 @@ button {
   }
 }
 
-.projects--content-overlay {
-  background: rgba(0, 0, 0, 0.7);
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+.location {
+ @apply w-full min-h-[400px] duration-500 bg-blend-color-burn bg-no-repeat bg-cover bg-center;
 }
 
-.doc_link {
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  text-decoration: none;
-  width: 100%;
+.location div {
+  @apply h-full bg-gradient-to-b from-green opacity-0  duration-500;
 }
 
-.doc_link .span {
-  font-family: 'IBM Plex Sans', sans-serif;
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-style: italic;
-  font-weight: 600;
-  color: #f2f4f3;
-  z-index: 1;
-  opacity: 0;
-  width: 100%;
-  max-height: 100%;
-  overflow: hidden;
-  letter-spacing: 1px;
-  text-shadow: 0rem 0rem 2px #004a30;
-  transition: opacity ease 0.5s;
+.location h3 {
+  @apply  p-2 lg:p-8 text-white text-2xl md:text-4xl mb-3;
 }
 
-.doc_link:after {
-  background: linear-gradient(rgb(0, 74, 48), rgba(0, 74, 48, .25));
-  content: '';
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  transition: opacity ease 0.5s;
-  opacity: 0;
+.location:hover {
+  @apply cursor-pointer;
 }
 
-.doc_link:focus .span,
-.doc_link:hover .span,
-.doc_link:focus::after,
-.doc_link:hover::after {
-  opacity: 1;
+.location:hover div {
+  @apply  opacity-100;
 }
+
 
 @media (max-width: 900px){
   .mobile-nav {
@@ -129,7 +93,7 @@ button {
     position: absolute;
     z-index: -10;
     transition-duration: 0.5s;
-    @apply bg-gradient-to-br from-white via-green to-green;
+    @apply bg-gradient-to-b from-green via-green;
   }
 
   .mobile-nav.open {
@@ -158,15 +122,21 @@ form label {
   @apply block text-gray-700 text-sm font-bold mb-2;
 }
 
-form input[type='text'],
-form input[type='email'],
+form input,
 form textarea {
-  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight;
+  @apply bg-gray-200 shadow appearance-none border border-gray-200 rounded w-full py-3 px-4 pr-8 text-gray-700 leading-tight;
 }
 
-form button {
-  @apply bg-green hover:bg-blue text-white font-bold py-2 px-4 rounded;
+form input[name='firstname'],
+form input[name='lastname'] {
+  @apply w-full md:w-1/2 px-3 mb-6 md:mb-0 mr-2;
 }
+
+form input[name='lastname'] {
+  @apply ml-2;
+}
+
+
 
 form select {
   @apply block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500;

@@ -1,9 +1,6 @@
 import { useState } from "react";
 import Container from "./container";
 import CoverImage from "./cover-image.component";
-// import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-// import ModalImage from "react-modal-image";
-
 import Modal from "./modal.component";
 
 export default function PostBody({ title, coverImage, gallery, content }) {

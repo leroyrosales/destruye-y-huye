@@ -6,8 +6,8 @@ export default function Survey() {
       <input type="hidden" value="survey" />
       <div>
         <label htmlFor="name">Name:</label>
-        <input type="text" name="firstname" id="firstname" placeholder="Jane" />
-        <input type="text" name="name" id="name" placeholder="Doe" />
+        <input type="text" name="firstname" id="firstname" placeholder="First name" />
+        <input type="text" name="lastname" id="lastname" placeholder="Last name" />
       </div>
       <div>
         <label htmlFor="email">Email:</label>
