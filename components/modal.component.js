@@ -2,26 +2,67 @@ import React from "react";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 export default function Modal({ clickedImg, setClickedImg }) {
+  const handleClick = (e) => {
+    if (e.target.classList.contains("close")) {
+      setClickedImg(null);
+    }
+  };
+
   return (
     <>
-      <TransformWrapper
-        initialScale={1}
-        initialPositionX={200}
-        initialPositionY={100}
-      >
-        {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
-          <React.Fragment>
-            <div className="tools">
-              <button onClick={() => zoomIn()}>+</button>
-              <button onClick={() => zoomOut()}>-</button>
-              <button onClick={() => resetTransform()}>x</button>
+      <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+        <div className="relative w-auto max-h-screen my-6 p-6 mx-auto max-w-3xl">
+          {/*content*/}
+          <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+            {/*body*/}
+            <div className="relative p-6 flex-auto">
+              <TransformWrapper
+                initialScale={1}
+                initialPositionX={0}
+                initialPositionY={0}
+                wheel={{disabled:true}}
+              >
+                {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
+                  <div className="relative">
+                    <div className="tools">
+                      <button name="zoom-in" onClick={() => zoomIn()}>
+                        +
+                      </button>
+                      <button name="zoom-out" onClick={() => zoomOut()}>
+                        -
+                      </button>
+                      <button
+                        name="zoom-reset"
+                        onClick={() => resetTransform()}
+                      >
+                       Reset
+                      </button>
+                      <button
+                        className="close absolute right-0"
+                        name="close"
+                        onClick={handleClick}
+                      >
+                        Close
+                      </button>
+                    </div>
+                    <TransformComponent>
+                      <img src={clickedImg} alt="bigger pic" />
+                    </TransformComponent>
+                  </div>
+                )}
+              </TransformWrapper>
+              <figcaption className="my-4 text-blueGray-500 text-lg leading-relaxed">
+                I always felt like I could do anything. That’s the main thing
+                people are controlled by! Thoughts- their perception of
+                themselves! They're slowed down by their perception of
+                themselves. If you're taught you can’t do anything, you won’t do
+                anything. I was taught I could do everything.
+              </figcaption>
             </div>
-            <TransformComponent>
-                <img src={clickedImg} alt="bigger pic" />
-            </TransformComponent>
-          </React.Fragment>
-        )}
-      </TransformWrapper>
+          </div>
+        </div>
+      </div>
+      <div className="opacity-75 fixed inset-0 z-40 bg-black"></div>
     </>
   );
 }
