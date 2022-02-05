@@ -1,8 +1,7 @@
 import { useRouter } from "next/router";
 import ErrorPage from "next/error";
 import Container from "../../components/container";
-import PostBody from "../../components/post-body";
-import Header from "../../components/header.component";
+import PostBody from "../../components/post-body.component";
 import PostHeader from "../../components/post-header.component";
 import Layout from "../../components/layout";
 import { getPostBySlug, getAllPosts } from "../../lib/api";
@@ -12,7 +11,7 @@ import { CMS_NAME } from "../../lib/constants";
 import markdownToHtml from "../../lib/markdownToHtml";
 
 export default function Post({ post, preview }) {
-  const { title, address, coords, coverImage, content, gallery } = post;
+  const { title, address, coords, content, gallery } = post;
 
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
@@ -42,7 +41,7 @@ export default function Post({ post, preview }) {
                 address={address}
                 coords={coords}
               />
-              <PostBody content={content} title={title} coverImage={coverImage} gallery={gallery} />
+              <PostBody content={content} title={title} gallery={gallery} />
             </article>
           </>
         )}
