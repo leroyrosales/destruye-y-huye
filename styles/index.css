@@ -27,7 +27,7 @@ nav a:first-child {
 }
 
 .active {
-  @apply underline decoration-blue decoration-wavy decoration-2
+  @apply underline decoration-blue decoration-2
 }
 
 p {
