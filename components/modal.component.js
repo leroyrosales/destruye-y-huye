@@ -1,7 +1,7 @@
 import React from "react";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
-export default function Modal({ clickedImg, setClickedImg }) {
+export default function Modal({ title, clickedImg, setClickedImg }) {
   const handleClick = (e) => {
     if (e.target.classList.contains("close")) {
       setClickedImg(null);
@@ -12,11 +12,11 @@ export default function Modal({ clickedImg, setClickedImg }) {
   return (
     <>
       <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-        <div className="relative w-auto max-h-screen my-6 p-6 mx-auto max-w-3xl">
+        <div className="relative w-auto max-h-screen my-6 p-6 mx-auto max-w-5xl">
           {/*content*/}
           <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
             {/*body*/}
-            <div className="relative p-4 flex-auto">
+            <div className="relative p-2 flex-auto">
               <TransformWrapper
                 initialScale={1}
                 initialPositionX={0}
@@ -47,14 +47,17 @@ export default function Modal({ clickedImg, setClickedImg }) {
                       </button>
                     </div>
                     <TransformComponent>
-                      <img src={clickedImg.image} alt={clickedImg.caption} />
+                      <img className="border-2 border-green border-solid" src={clickedImg.image} alt={ clickedImg.caption ? clickedImg.caption : `Photograph at ${title}` } />
                     </TransformComponent>
                   </div>
                 )}
               </TransformWrapper>
-              <figcaption className="my-4 text-blueGray-500 text-lg leading-relaxed">
-                {clickedImg.caption}
-              </figcaption>
+              { clickedImg.caption ?
+                <figcaption className="my-2 text-lg leading-relaxed">
+                  {clickedImg.caption}
+                </figcaption>
+                : null
+              }
             </div>
           </div>
         </div>

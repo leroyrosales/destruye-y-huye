@@ -11,7 +11,7 @@ export default function PostPreview({ title, coverImage, slug }) {
         }}
       >
         <div>
-          <h3>
+          <h3 className="block h-full">
             <Link as={`/locations/${slug}`} href="/locations/[slug]">
               <a className="h-full">{title}</a>
             </Link>
