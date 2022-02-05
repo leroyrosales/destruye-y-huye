@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Survey() {
   return (
-    <form name="survey" action="/success" method="POST" data-netlify="true">
+    <form name="survey" action="success" method="POST" data-netlify="true">
       <input type="hidden" value="survey" />
       <label htmlFor="name">Full Name:</label>
       <div className="grid gap-4 grid-cols-2">
