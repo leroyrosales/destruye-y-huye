@@ -10,9 +10,9 @@ export default function PostPreview({ title, coverImage, slug }) {
         }}
       >
         <div>
-          <h3 className="block h-full">
+          <h3 className="block h-full hover:cursor-pointer">
             <Link as={`/locations/${slug}`} href="/locations/[slug]">
-              <a className="text-white no-underline h-full">{title}</a>
+              <a className="block text-white no-underline h-full hover:cursor-pointer">{title}</a>
             </Link>
           </h3>
         </div>

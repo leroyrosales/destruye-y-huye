@@ -83,7 +83,7 @@ button {
   @apply  p-8 text-white text-4xl mb-3;
 }
 
-.location:hover {
+.location a:hover {
   @apply cursor-pointer;
 }
 
