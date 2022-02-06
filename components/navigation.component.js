@@ -7,12 +7,10 @@ export default function Navigation() {
   const [navToggle, setNavToggle] = useState(false);
   const openNav = () => {
     setNavToggle(true);
-    document.body.style.overflow = "hidden";
   };
 
   const closeNav = () => {
     setNavToggle(false);
-    document.body.style.overflow = "visible";
   };
 
   return (
