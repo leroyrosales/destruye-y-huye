@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Survey() {
   return (
-    <form name="survey" action="/success" method="POST" data-netlify="true">
-      <input type="hidden" value="survey" />
+    <form name="survey" action="/success" method="POST" netlify data-netlify="true">
+      <input type="hidden" name="survey" value="survey" />
       <label htmlFor="name">Full Name:</label>
       <div className="grid gap-4 grid-cols-2">
         <input
