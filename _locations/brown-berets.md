@@ -2,7 +2,7 @@
 title: 'Brown Berets protest AquaFest'
 address: "Chicano Park, 2101 Jesse E. Segovia St, Austin, TX 78702"
 coords: "30.249640, -97.724830"
-coverImage: '/assets/locations/brown-berets/brown-berets-1.jpg'
+coverImage: '/assets/locations/brown-berets/brown-berets-cover.jpg'
 gallery: [
     {
         image: '/assets/locations/brown-berets/brown-berets-1.jpg',

@@ -2,7 +2,7 @@
 title: "Rosewood Park"
 address: "2300 Rosewood Ave, Austin, TX 78702"
 coords: "30.270682,-97.71419"
-coverImage: '/assets/locations/rosewood-park/rosewood-park-1.jpg'
+coverImage: '/assets/locations/rosewood-park/rosewood-park-cover.jpg'
 gallery: [
     {
         image: '/assets/locations/rosewood-park/rosewood-park-1.jpg',

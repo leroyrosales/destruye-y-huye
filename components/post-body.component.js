@@ -21,7 +21,7 @@ export default function PostBody({ title, gallery, content }) {
           <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
             {gallery?.map((img, i) => (
               <div>
-                <img src={img.image} onClick={() => handleClick(img, i)} />
+                <img loading="lazy" src={img.image} onClick={() => handleClick(img, i)} />
                 {img.caption ? (
                   <figcaption className="mt-2 italic">{img.caption}</figcaption>
                 ) : null}

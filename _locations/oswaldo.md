@@ -2,7 +2,7 @@
 title: 'Oswaldo "A.B." Cantu Pan Am Recreation Center'
 address: "2100 E. Third, Austin, TX 78702"
 coords: "30.2581069,-97.7228977"
-coverImage: '/assets/locations/oswaldo/oswaldo-1.jpg'
+coverImage: '/assets/locations/oswaldo/oswaldo-cover.jpg'
 gallery: [
     {
         image: '/assets/locations/oswaldo/oswaldo-1.jpg',

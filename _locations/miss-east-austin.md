@@ -2,7 +2,7 @@
 title: 'Miss East Contest at Givens pool'
 address: "3811 E 12th St, Austin, TX 78721"
 coords: "30.2768,-97.6902958"
-coverImage: '/assets/locations/miss-east/miss-east-1.jpg'
+coverImage: '/assets/locations/miss-east/miss-east-cover.jpg'
 gallery: [
     {
         image: '/assets/locations/miss-east/miss-east-1.jpg',

@@ -47,7 +47,7 @@ export default function Modal({ title, clickedImg, setClickedImg }) {
                       </button>
                     </div>
                     <TransformComponent>
-                      <img className="border-2 border-green border-solid" src={clickedImg.image} alt={ clickedImg.caption ? clickedImg.caption : `Photograph at ${title}` } />
+                      <img loading="lazy" className="border-2 border-green border-solid" src={clickedImg.image} alt={ clickedImg.caption ? clickedImg.caption : `Photograph at ${title}` } />
                     </TransformComponent>
                   </div>
                 )}

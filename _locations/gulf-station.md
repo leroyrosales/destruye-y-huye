@@ -2,7 +2,7 @@
 title: 'Gulf Station'
 address: "1614 E 12th St, Austin, TX 78702"
 coords: "30.2734301,-97.7227972"
-coverImage: '/assets/locations/gulf-station/gulf-station-1.jpg'
+coverImage: '/assets/locations/gulf-station/gulf-station-cover.jpg'
 gallery: [
     {
         image: '/assets/locations/gulf-station/gulf-station-1.jpg',

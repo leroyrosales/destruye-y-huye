@@ -2,7 +2,7 @@
 title: 'Anderson High School'
 address: "902 Thompson St, Austin TX 78702"
 coords: "30.270519, -97.709000"
-coverImage: '/assets/locations/anderson-hs/anderson-hs-1.jpg'
+coverImage: '/assets/locations/anderson-hs/anderson-hs-cover.jpg'
 gallery: [
     {
         image: '/assets/locations/anderson-hs/anderson-hs-1.jpg',
