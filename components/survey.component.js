@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Survey() {
+
+  const [required, setRequired] = useState(false);
+
+  const handleRequired = (e) => {
+    if(e.target.value.length > 3) {
+      setRequired(true)
+    }
+  };
+
   return (
-    <form name="survey" action="/success" method="POST" netlify data-netlify="true">
+    <form name="survey" action="/success" method="POST" data-netlify="true">
       <input type="hidden" name="survey" value="survey" />
       <label htmlFor="name">Full Name:</label>
       <div className="grid gap-4 grid-cols-2">
@@ -11,12 +20,16 @@ export default function Survey() {
           name="firstname"
           id="firstname"
           placeholder="First name"
+          required
+          onChange={handleRequired}
         />
         <input
           type="text"
           name="lastname"
           id="lastname"
           placeholder="Last name"
+          required
+          onChange={handleRequired}
         />
       </div>
       <div>
@@ -26,16 +39,17 @@ export default function Survey() {
           name="email"
           id="email"
           placeholder="jane.doe@email.com"
+          required
         />
       </div>
       <div>
         <label htmlFor="gender">What is your gender identity?</label>
         <select name="gender" id="gender">
-          <option value="" selected disabled>
+          <option value="" defaultValue disabled>
             - Select -
           </option>
           <option value="male">Male</option>
-          <option value="Female">Female</option>
+          <option value="female">Female</option>
           <option value="non-binary">Non-binary</option>
           <option value="other">Other</option>
         </select>
@@ -43,16 +57,16 @@ export default function Survey() {
       <div>
         <label htmlFor="age">Which category below includes your age?</label>{" "}
         <select name="age" id="age">
-          <option value="" selected disabled>
+          <option value="" defaultValue disabled>
             - Select -
           </option>
-          <option value="17 or younger">17 or younger</option>
+          <option value="17-or-younger">17 or younger</option>
           <option value="18-20">18-20</option>
           <option value="21-29">21-29</option>
           <option value="30-39">30-39</option>
           <option value="40-49">40-49</option>
           <option value="50-59">50-59</option>
-          <option value="60 or older">60 or older</option>
+          <option value="60-or-older">60 or older</option>
         </select>
       </div>
       <div>
@@ -61,7 +75,7 @@ export default function Survey() {
           Cuban-American, or some other Spanish, Hispanic, or Latino group?
         </label>{" "}
         <select name="spanish-ethnicity" id="spanish-ethnicity">
-          <option value="" selected disabled>
+          <option value="" defaultValue disabled>
             - Select -
           </option>
           <option value="none">I am not Spanish, Hispanic, or Latino</option>
@@ -87,7 +101,7 @@ export default function Survey() {
           White, other race?
         </label>{" "}
         <select name="ethnicity" id="ethnicity">
-          <option value="" selected disabled>
+          <option value="" defaultValue disabled>
             - Select -
           </option>
           <option value="arab">Arab</option>
@@ -112,7 +126,7 @@ export default function Survey() {
           Have you visited locations of the East: Sun-Rise AR Intervention?
         </label>{" "}
         <select name="visited" id="visited">
-          <option value="" selected disabled>
+          <option value="" defaultValue disabled>
             - Select -
           </option>
           <option value="yes">Yes</option>
@@ -165,7 +179,7 @@ export default function Survey() {
           Would you like to you recommend this project to a family or a friend?
         </label>{" "}
         <select name="recommendation" id="recommendation">
-          <option value="" selected disabled>
+          <option value="" defaultValue disabled>
             - Select -
           </option>
           <option value="yes">Yes</option>
@@ -173,7 +187,7 @@ export default function Survey() {
         </select>
       </div>
       <div>
-        <button type="submit">Submit Answers</button>
+        <button type="submit" disabled={!required}>Submit Answers</button>
       </div>
     </form>
   );
