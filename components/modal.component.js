@@ -1,7 +1,10 @@
 import React from "react";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
-export default function Modal({ title, clickedImg, setClickedImg }) {
+export default function Modal({ locationTitle, clickedImg, setClickedImg }) {
+
+  const { caption, title } = clickedImg;
+
   const handleClick = (e) => {
     if (e.target.classList.contains("close")) {
       setClickedImg(null);
@@ -16,7 +19,7 @@ export default function Modal({ title, clickedImg, setClickedImg }) {
           {/*content*/}
           <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
             {/*body*/}
-            <div className="relative p-2 flex-auto">
+            <figure className="relative p-2 flex-auto">
               <TransformWrapper
                 initialScale={1}
                 initialPositionX={0}
@@ -47,18 +50,20 @@ export default function Modal({ title, clickedImg, setClickedImg }) {
                       </button>
                     </div>
                     <TransformComponent>
-                      <img loading="lazy" className="border-2 border-green border-solid" src={clickedImg.image} alt={ clickedImg.caption ? clickedImg.caption : `Photograph at ${title}` } />
+                      <picture>
+                        <img loading="lazy" className="border-2 border-green border-solid" src={clickedImg.image} alt={ title ? title : `Photograph of ${locationTitle}` } />
+                      </picture>
                     </TransformComponent>
                   </div>
                 )}
               </TransformWrapper>
-              { clickedImg.caption ?
+              {  caption ?
                 <figcaption className="my-2 text-lg leading-relaxed">
-                  {clickedImg.caption}
+                  { caption}
                 </figcaption>
                 : null
               }
-            </div>
+            </figure>
           </div>
         </div>
       </div>

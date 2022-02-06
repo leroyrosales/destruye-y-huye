@@ -31,6 +31,14 @@ nav a:first-of-type {
   @apply underline decoration-blue decoration-2
 }
 
+article ul {
+  @apply list-disc;
+}
+
+article ul li {
+  @apply mb-2;
+}
+
 p {
   @apply mb-8;
 }

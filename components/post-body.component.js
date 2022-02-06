@@ -18,22 +18,30 @@ export default function PostBody({ title, gallery, content }) {
       >
         <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
           {gallery?.map((img, i) => (
-            <div>
-              <img
-                loading="lazy"
-                src={img.image}
-                onClick={() => handleClick(img, i)}
-              />
-              {img.caption ? (
-                <figcaption className="mt-2 italic">{img.caption}</figcaption>
+            <figure>
+              <picture>
+                <img
+                  loading="lazy"
+                  src={img.image}
+                  onClick={() => handleClick(img, i)}
+                  alt={ img.title ? img.title : `Photograph of ${title}` }
+                />
+              </picture>
+              {img.title ? (
+                <figcaption className="text-base pt-2">
+                  <strong>{img.title}</strong>
+                </figcaption>
               ) : null}
-            </div>
+              {img.credit ? (
+                <cite className="text-sm pt-2 italic">{img.credit}</cite>
+              ) : null}
+            </figure>
           ))}
           {clickedImg && (
             <Modal
               clickedImg={clickedImg}
               setClickedImg={setClickedImg}
-              title={title}
+              locationTitle={title}
             />
           )}
         </div>
