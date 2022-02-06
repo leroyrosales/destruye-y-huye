@@ -26,3 +26,8 @@ gallery: [
 * <a href="https://texashistoricalmarkers.weebly.com/site-of-old-anderson-high-school-kealing-junior-high-school.html" target="_blank">https://texashistoricalmarkers.weebly.com/site-of-old-anderson-high-school-kealing-junior-high-school.html</a>
 * <a href="https://www.hmdb.org/m.asp?m=42981" target="_blank">https://www.hmdb.org/m.asp?m=42981</a>
 * <a href="https://austin.bibliocommons.com/v2/record/S67C191007" target="_blank">https://austin.bibliocommons.com/v2/record/S67C191007</a>
+
+### Background Map Image
+Map_N-8-1944
+<a href="https://ahc.access.preservica.com/index.php/IO_e9fffee4-651a-4752-a5f0-ec69588c8a59/" target="_blank">https://ahc.access.preservica.com/index.php/IO_e9fffee4-651a-4752-a5f0-ec69588c8a59/</a>
+

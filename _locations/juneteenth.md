@@ -1,5 +1,5 @@
 ---
-title: "The Buffalo Soldiers open the Juneteenth Parade in East Austi"
+title: "Juneteenth Celebration"
 address: "1900 Rosewood Ave, Austin, TX 78702"
 coords: "30.269917,-97.7188694"
 coverImage: '/assets/locations/juneteenth/juneteenth-cover.jpg'
@@ -28,3 +28,8 @@ Juneteenth commemorates the end of formal slavery in Texas on June 19, 1865, two
 * <a href="https://juneteenthatx.com" target="_blank">https://juneteenthatx.com</a>
 * <a href="https://www.tshaonline.org/handbook/entries/juneteenth" target="_blank">https://www.tshaonline.org/handbook/entries/juneteenth</a>
 * <a href="https://ahc.access.preservica.com/?s=Juneteenth" target="_blank">https://ahc.access.preservica.com/?s=Juneteenth</a>
+
+### Background Map Image
+Map_N-11-1973
+<a href="https://ahc.access.preservica.com/index.php/IO_1e044ab3-aed3-4a70-ad2c-615cefb1f83d/" target="_blank">https://ahc.access.preservica.com/index.php/IO_1e044ab3-aed3-4a70-ad2c-615cefb1f83d/</a>
+

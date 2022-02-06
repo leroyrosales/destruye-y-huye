@@ -8,7 +8,7 @@ body {
 }
 
 :focus {
-  @apply outline-green;
+  @apply outline-red;
 }
 
 h2, h3, h4, h5, h6 {
@@ -53,7 +53,7 @@ main a:hover {
 
 button[type="submit"],
 button {
-  @apply mr-2 mb-2 bg-green hover:bg-blue text-white font-bold py-2 px-4 rounded;
+  @apply mr-2 mb-2 bg-green hover:bg-blue text-white font-medium py-1 px-4;
 }
 
 button:disabled {

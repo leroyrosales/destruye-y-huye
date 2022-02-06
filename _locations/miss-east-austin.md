@@ -29,3 +29,7 @@ gallery: [
 
 * <a href="https://www.austintexas.gov/department/givens-district-pool" target="_blank">https://www.austintexas.gov/department/givens-district-pool</a>
 * <a href="https://texashistory.unt.edu/ark:/67531/metapth1283233/" target="_blank">https://texashistory.unt.edu/ark:/67531/metapth1283233/</a>
+
+### Background Map Image
+Map_N-8-1944
+<a href="https://ahc.access.preservica.com/index.php/IO_e9fffee4-651a-4752-a5f0-ec69588c8a59/" target="_blank">https://ahc.access.preservica.com/index.php/IO_e9fffee4-651a-4752-a5f0-ec69588c8a59/</a>

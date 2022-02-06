@@ -4,10 +4,15 @@ import Modal from "./modal.component";
 export default function PostBody({ title, gallery, content }) {
   const [clickedImg, setClickedImg] = useState(null);
 
-  const handleClick = (img, i) => {
+  const handleClick = (img) => {
     setClickedImg(img);
+    console.log(img)
     document.body.style.overflow = "hidden";
   };
+
+  const handleKeyDown = (img) => {
+    setClickedImg(img);
+  }
 
   return (
     <>
@@ -23,8 +28,11 @@ export default function PostBody({ title, gallery, content }) {
                 <img
                   loading="lazy"
                   src={img.image}
-                  onClick={() => handleClick(img, i)}
+                  onClick={() => handleClick(img)}
                   alt={ img.title ? img.title : `Photograph of ${title}` }
+                  tabIndex="0"
+                  onKeyDown={() => handleKeyDown(img)}
+                  key={i}
                 />
               </picture>
               {img.title ? (

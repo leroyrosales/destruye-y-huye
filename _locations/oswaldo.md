@@ -35,3 +35,6 @@ The Pan American Recreation Center was opened in June 1942 as the first Latin Am
 * <a href="https://austinparks.org/pan-am/" target="_blank">https://austinparks.org/pan-am/</a>
 * <a href="https://reclaimingmemoriestx.blog/ritual-recuerdo-resistencia-online-video-art-exhibit/" target="_blank">https://reclaimingmemoriestx.blog/ritual-recuerdo-resistencia-online-video-art-exhibit/</a>
 * <a href="https://library.austintexas.gov/ahc/latinx-community-archivist" target="_blank">https://library.austintexas.gov/ahc/latinx-community-archivist</a>
+### Background Map Image
+Map_N-8-1944
+<a href="https://ahc.access.preservica.com/index.php/IO_e9fffee4-651a-4752-a5f0-ec69588c8a59/" target="_blank">https://ahc.access.preservica.com/index.php/IO_e9fffee4-651a-4752-a5f0-ec69588c8a59/</a>
