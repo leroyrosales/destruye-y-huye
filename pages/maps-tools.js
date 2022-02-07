@@ -12,7 +12,7 @@ export default function MapsAndTools() {
           <title>Maps, software &amp; online tools | {CMS_NAME}</title>
         </Head>
         <Container>
-          <section className="grid grid-cols-1 xl:grid-cols-2">
+          <section className="grid grid-cols-1 xl:grid-cols-2" id="content">
             <PostTitle title="Maps, software &amp; online tools" />
             <div>
               <ul>

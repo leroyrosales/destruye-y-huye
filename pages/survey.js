@@ -15,9 +15,9 @@ export default function about() {
         <Container>
           <section className="grid grid-cols-1 xl:grid-cols-2">
             <PostTitle title="Survey" />
-            <div>
+            <article id="content">
               <Survey />
-            </div>
+            </article>
           </section>
         </Container>
       </Layout>

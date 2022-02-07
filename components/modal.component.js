@@ -27,7 +27,7 @@ export default function Modal({
             left: 0,
             right: 0,
             bottom: 0,
-            backgroundColor: 'rgba(0, 0, 0, 0.95)',
+            backgroundColor: 'rgba(0, 0, 0, 0.8)',
             zIndex: 999,
             maxHeight: "100vh",
           },

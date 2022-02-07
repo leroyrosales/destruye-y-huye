@@ -2,7 +2,7 @@ import { CMS_NAME } from "../lib/constants";
 
 export default function Intro() {
   return (
-    <section>
+    <section id="content">
       <p className="text-3xl">
         East: Sun - Rise AR Intervention is an augmented reality platform that
         uses archival photographic material and a web-based application to plot

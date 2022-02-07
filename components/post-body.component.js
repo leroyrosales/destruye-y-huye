@@ -31,6 +31,7 @@ export default function PostBody({ title, gallery, content }) {
         className={`grid grid-cols-1 md:gap-8 ${
           content ? "md:grid-cols-2" : ""
         }`}
+        id="content"
       >
         <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
           {gallery?.map((img, i) => (

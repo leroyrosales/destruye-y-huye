@@ -16,7 +16,7 @@ export default function about() {
           <title>About | {CMS_NAME}</title>
         </Head>
         <Container>
-          <section>
+          <section id="content">
             <div className="xl:max-w-prose mx-auto">
               <p className="text-center">
                 <PostTitle title="About" />

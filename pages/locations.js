@@ -14,7 +14,7 @@ export default function Locations({ allPosts }) {
           <title>Locations | {CMS_NAME}</title>
         </Head>
         <Container>
-          <section className="grid grid-cols-1 xl:grid-cols-2">
+          <section className="grid grid-cols-1 xl:grid-cols-2" id="content">
             <PostTitle title="Locations" />
             <div>
               <p className="text-lg mb-8">

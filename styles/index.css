@@ -7,12 +7,16 @@ body {
   @apply text-lg font-medium;
 }
 
-:focus {
-  @apply outline-red;
+:focus-visible {
+  @apply bg-orange text-black;
 }
 
-h2, h3, h4, h5, h6 {
-  @apply text-green text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-green text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight;
 }
 
 h3 {
@@ -28,7 +32,7 @@ nav a:first-of-type {
 }
 
 .active {
-  @apply underline decoration-blue decoration-2
+  @apply underline decoration-blue decoration-2;
 }
 
 article ul {
@@ -48,7 +52,7 @@ main a {
 }
 
 main a:hover {
-  @apply decoration-blue decoration-wavy decoration-2
+  @apply decoration-blue decoration-wavy decoration-2;
 }
 
 button[type="submit"],
@@ -65,11 +69,11 @@ button:disabled {
 }
 
 .marker-popup {
-  visibility: hidden!important;
+  visibility: hidden !important;
 }
 
 .marker-popup.visible-popup {
- visibility: visible!important;
+  visibility: visible !important;
 }
 
 .fixed-nav {
@@ -88,7 +92,7 @@ button:disabled {
 }
 
 .location {
- @apply w-full min-h-[400px] duration-500 bg-blend-color-burn bg-no-repeat bg-cover bg-center;
+  @apply w-full min-h-[400px] duration-500 bg-blend-color-burn bg-no-repeat bg-cover bg-center;
 }
 
 .location div {
@@ -96,19 +100,21 @@ button:disabled {
 }
 
 .location h3 {
-  @apply  p-8 text-white text-4xl mb-3;
+  @apply p-8 text-white text-4xl mb-3;
 }
 
+.location a:focus,
 .location a:hover {
   @apply cursor-pointer;
 }
 
+.location:focus div,
 .location:hover div {
-  @apply  opacity-100;
+  @apply opacity-100;
 }
 
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
   .mobile-nav {
     opacity: 0;
     left: 0;
