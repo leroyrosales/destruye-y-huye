@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply text-green text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight;
+  @apply text-green text-6xl mb-4 md:text-7xl font-extrabold;
 }
 
 h3 {
@@ -79,7 +79,12 @@ button:disabled {
 .fixed-nav {
   animation-name: fade-in;
   animation-duration: 1s;
-  @apply bg-gradient-to-r fixed top-0;
+  @apply bg-green fixed top-0;
+}
+
+.fixed-nav h1,
+.fixed-nav a {
+  @apply text-white;
 }
 
 @keyframes fade-in {
@@ -100,7 +105,7 @@ button:disabled {
 }
 
 .location h3 {
-  @apply p-8 text-white text-4xl mb-3;
+  @apply p-12 text-white text-4xl leading-tight;
 }
 
 .location a:focus,

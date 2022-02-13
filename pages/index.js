@@ -17,7 +17,7 @@ export default function Index({ allPosts }) {
           <Intro />
         </Container>
         <Container>
-          <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
+          <h2 className="py-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
             Locations
           </h2>
         </Container>
