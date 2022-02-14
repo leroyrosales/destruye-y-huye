@@ -4,31 +4,13 @@ export default function Intro() {
   return (
     <section id="content">
       <p className="text-3xl">
-        East: Sun - Rise AR Intervention is an augmented reality platform that
-        uses archival photographic material and a web-based application to plot
-        markers over the neighborhoods of East Austin. The physical markers (ie.
-        a corner street, a parade on the streets; a sidewalk that is getting
-        some public work; a public swimming pool, a baseball or a football
-        field, or an iconic moon tower light, etc) reconcile within the public
-        spaces while trace in a virtual and a physical tour-like experience
-        relates to origin, history and labor.
+        East: Sun - Rise AR Intervention is an augmented reality experience/project that uses archival photographic material and a web-based application to plot markers in the neighborhoods of East Austin.
       </p>
       <p>
-        East: Sun - Rise ARI blurs notions of art in public places by layering
-        virtually archival material within the use of Global Positioning System
-        (GPS) to geo-locate photographs in public places, in which the main
-        protagonists of the photographs, BIPOC - Black, Indigenous, and People
-        of Color, that are documented celebrating life, playing sports, having a
-        parade, demonstrating, standing outside of a school or just having a
-        walk in the neighborhood, brought us in time and made us here
-        assimilating a time the has passed with such a rich stories and
-        anecdotes from the people who originated this part of town.
+      East: Sun - Rise AR Intervention blurs notions of art in public places by virtually layering archival photographic material over public places in East Austin using Augmented Reality (AR) technology. The images' main protagonists, BIPOC (Black, Indigenous, and People of Color), are documented celebrating everyday life–playing sports, having a parade, demonstrating, standing outside of a school or just having a walk in the neighborhood. The physical markers–a street corner, a public swimming pool, a baseball field, or an iconic moon tower light, while trace in a virtual and a physical tour-like experiences that relate to history, origin, and labor.
       </p>
       <p>
-        East: Sun - Rise ARI is a FY 21-22 Community Initiatives project awarded
-        by City of Austin Cultural Arts Funding Program and the Economic
-        Development Department and sponsored by The Museum of Human Achievement,
-        a 503c non-profit org based in Austin, Texas.
+        East: Sun - Rise ARI is a FY 21-22 Community Initiatives project awarded by City of Austin Cultural Arts Funding Program and the Economic Development Department and sponsored by The Museum of Human Achievement, a 503c non-profit org based in Austin, Texas and supported by Austin Mutual Aid Micro-grant.
       </p>
     </section>
   );

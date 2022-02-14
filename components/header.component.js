@@ -23,7 +23,7 @@ export default function Header() {
         }`}
       >
         <div className="container mx-auto flex flex-col xl:flex-row justify-between xl:items-center px-5">
-          <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-green via-green to-white text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight md:pr-8">
+          <h1 className="text-transparent bg-clip-text bg-gradient-to-br from-red via-red to-white text-6xl mb-4 md:text-7xl font-extrabold tracking-tighter leading-tight md:pr-8">
             <Link href="/">
               <a className="no-underline">{CMS_NAME}</a>
             </Link>

@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply text-green text-6xl mb-4 md:text-7xl font-extrabold;
+  @apply text-gray-700 text-6xl mb-4 md:text-7xl font-extrabold;
 }
 
 h3 {
@@ -79,7 +79,7 @@ button:disabled {
 .fixed-nav {
   animation-name: fade-in;
   animation-duration: 1s;
-  @apply bg-green fixed top-0;
+  @apply bg-red fixed top-0;
 }
 
 .fixed-nav h1,
@@ -101,7 +101,7 @@ button:disabled {
 }
 
 .location div {
-  @apply h-full bg-gradient-to-b from-green opacity-0  duration-500;
+  @apply h-full bg-gradient-to-b from-gray-800 opacity-0  duration-500;
 }
 
 .location h3 {
