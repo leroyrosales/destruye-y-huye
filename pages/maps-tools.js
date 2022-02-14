@@ -12,29 +12,16 @@ export default function MapsAndTools() {
           <title>Maps, software &amp; online tools | {CMS_NAME}</title>
         </Head>
         <Container>
-          <section className="grid grid-cols-1 xl:grid-cols-2" id="content">
+          <section className="grid grid-cols-1 xl:grid-cols-2 gap-8" id="content">
             <PostTitle title="Maps, software &amp; online tools" />
             <div>
               <ul>
-                <li className="mb-8">
+              <li className="mb-8">
                   <h3 className="text-black text-xl mb-0">
-                    City of Austin Property Profile web map
+                    Indigenous Peoples Territories Map
                   </h3>
-                  <a
-                    href="https://www.austintexas.gov/GIS/PropertyProfile/"
-                    target="_blank"
-                  >
-                    https://www.austintexas.gov/GIS/PropertyProfile/
-                  </a>
-                </li>
-                <li className="mb-8">
-                  <h3 className="text-black text-xl mb-0">Moon Tower Locations map</h3>
-                  <a
-                    href="https://www.google.com/maps/d/viewer?mid=1ggPjV58m4g1NAKatjuqvERHVMW0&usp=sharing"
-                    target="_blank"
-                  >
-                    {" "}
-                    https://www.google.com/maps/d/viewer?mid=1ggPjV58m4g1NAKatjuqvERHVMW0&usp=sharing
+                  <a href="https://native-land.ca/" target="_blank">
+                    https://native-land.ca/
                   </a>
                 </li>
                 <li className="mb-8">
@@ -44,6 +31,17 @@ export default function MapsAndTools() {
                   </h3>
                   <a href="https://texashistory.unt.edu/" target="_blank">
                     https://texashistory.unt.edu/
+                  </a>
+                </li>
+                <li className="mb-8">
+                  <h3 className="text-black text-xl mb-0">
+                    City of Austin Property Profile web map
+                  </h3>
+                  <a
+                    href="https://www.austintexas.gov/GIS/PropertyProfile/"
+                    target="_blank"
+                  >
+                    https://www.austintexas.gov/GIS/PropertyProfile/
                   </a>
                 </li>
                 <li className="mb-8">
@@ -70,11 +68,13 @@ export default function MapsAndTools() {
                   </a>
                 </li>
                 <li className="mb-8">
-                  <h3 className="text-black text-xl mb-0">
-                    Indigenous Peoples Territories Map
-                  </h3>
-                  <a href="https://native-land.ca/" target="_blank">
-                    https://native-land.ca/
+                  <h3 className="text-black text-xl mb-0">Moon Tower Locations map</h3>
+                  <a
+                    href="https://www.google.com/maps/d/viewer?mid=1ggPjV58m4g1NAKatjuqvERHVMW0&usp=sharing"
+                    target="_blank"
+                  >
+                    {" "}
+                    https://www.google.com/maps/d/viewer?mid=1ggPjV58m4g1NAKatjuqvERHVMW0&usp=sharing
                   </a>
                 </li>
               </ul>

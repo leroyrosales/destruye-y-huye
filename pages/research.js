@@ -13,7 +13,7 @@ export default function about() {
         </Head>
         <Container>
           <section className="grid grid-cols-1 xl:grid-cols-2" id="content">
-            <PostTitle title="Research" />
+            <PostTitle title="Further Research" />
             <div>
               <h3>Austin's history</h3>
               <ul>
