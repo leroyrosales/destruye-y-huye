@@ -50,6 +50,3 @@ gallery: [
 * <a href="https://texashistory.unt.edu/search/?q=%22rosewood+park%22&t=fulltext&sort=" target="_blank">https://texashistory.unt.edu/search/?q=%22rosewood+park%22&t=fulltext&sort=</a>
 * <a href="https://www.kut.org/austin/2017-01-19/staring-down-development-neighbors-seek-historical-recognition-for-emancipation-park" target="_blank">https://www.kut.org/austin/2017-01-19/staring-down-development-neighbors-seek-historical-recognition-for-emancipation-park</a>
 * <a href="http://eastwoodsaustin.org/index_files/Page639.htm" target="_blank">http://eastwoodsaustin.org/index_files/Page639.htm</a>
-### Background Map Image
-Map_M-1
-<a href="https://ahc.access.preservica.com/index.php/IO_8b729b06-7295-47d3-95e0-44453ef64828/" target="_blank">https://ahc.access.preservica.com/index.php/IO_8b729b06-7295-47d3-95e0-44453ef64828/</a>
