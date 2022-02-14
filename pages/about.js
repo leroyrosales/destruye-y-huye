@@ -18,8 +18,71 @@ export default function about() {
         <Container>
           <section id="content">
             <div className="xl:max-w-prose mx-auto">
+              <PostTitle title="About" />
+              <h3>Adrian Aguilera</h3>
+              <p>
+                A native of Monterrey, México (b. 1981), Adrian Aguilera
+                currently lives and works in Austin, Texas. Working with a
+                variety of mediums that include sculpture, text-based work,
+                mixed and multi-media, video, and installations, Aguilera
+                researches the intrinsic essence that resides in objects. With
+                an interest in scientific observation, cultural history, and
+                social issues, the artist’s work addresses our relationship with
+                the physical and cultural spaces in which we (co)exist. He holds
+                a Bachelor of Visual Arts (2004) from Universidad Autónoma de
+                Nuevo León, México. He has exhibited both nationally and
+                internationally at The Contemporary Austin, Artepace San
+                Antonio, The Philbrook Museum of Art in Tulsa, Oklahoma; Fusebox
+                Festival, Blanton Museum of Art, and George Washington Carver
+                Museum in Austin; as well as the Instituto Cultural de México in
+                Paris, France. Aguilera is also an active member of the
+                Austin-based contemporary arts collaborative platform Black
+                Mountain Project.
+              </p>
+              <h3>Project Credits</h3>
+              <ul>
+                <li>
+                  Author/Artist: Adrian Aguilera (
+                  <a href="https://www.adrianaguilera.com" target="_blank">
+                    www.adrianaguilera.com
+                  </a>
+                  )
+                </li>
+                <li>
+                  Digital Consultant: Rachel Stuckey (
+                  <a href="https://rachelstuckey.net" target="_blank">
+                    www.rachelstuckey.net
+                  </a>
+                  )
+                </li>
+                <li>
+                  Web Developer: Leroy Rosales (
+                  <a href="https://leroyrosales.com" target="_blank">
+                    leroyrosales.com
+                  </a>
+                  )
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  Partner Collaborator Augzoo logo (
+                  <a href="https://www.augzoo.com" target="_blank">
+                    www.augzoo.com
+                  </a>
+                  )
+                </li>
+                <li>
+                  Social Media: IG, Twitter Download on the App Store Graphic
+                  (download link or opening app)
+                </li>
+              </ul>
+              <h3>Acknowledgment</h3>
+              <p>
+                Special thank you to the Austin History Center staff who
+                provided time, resources and expertise to my research at Austin
+                History Center Reading Room.
+              </p>
               <p className="text-center">
-                <PostTitle title="About" />
                 <Image
                   src={cad_logo}
                   alt="The Museum of Human Achievement"
@@ -42,53 +105,6 @@ export default function about() {
                 <br />
                 Sponsorship by the Museum of Human Achievement
               </p>
-              <h3>About Adrian Aguilera</h3>
-              <p>
-                A native of Monterrey, México (b. 1981), Adrian Aguilera
-                currently lives and works in Austin, Texas. Working with a
-                variety of mediums that include sculpture, text-based work,
-                mixed and multi-media, video, and installations, Aguilera
-                researches the intrinsic essence that resides in objects. With
-                an interest in scientific observation, cultural history, and
-                social issues, the artist’s work addresses our relationship with
-                the physical and cultural spaces in which we (co)exist. He holds
-                a Bachelor of Visual Arts (2004) from Universidad Autónoma de
-                Nuevo León, México. He has exhibited both nationally and
-                internationally at The Contemporary Austin, Artepace San
-                Antonio, The Philbrook Museum of Art in Tulsa, Oklahoma; Fusebox
-                Festival, Blanton Museum of Art, and George Washington Carver
-                Museum in Austin; as well as the Instituto Cultural de México in
-                Paris, France. Aguilera is also an active member of the
-                Austin-based contemporary arts collaborative platform Black
-                Mountain Project.
-              </p>
-              <p>
-                <em>
-                  <strong>
-                    I hope you enjoy this temporary public art installation.
-                  </strong>
-                </em>
-              </p>
-
-              <h3>Acknowledgment</h3>
-              <p>
-                Special thank you to the Austin History Center staff who
-                provided time, resources and expertise to my research at Austin
-                History Center Reading Room.
-              </p>
-              <ul>
-                  <li>Partner Collaborator Augzoo logo (<a href="https://www.augzoo.com" target="_blank">www.augzoo.com</a>)</li>
-                  <li>
-                    Social Media: IG, Twitter Download on the App Store Graphic
-                    (download link or opening app)
-                  </li>
-                </ul>
-              <h3>Project Credits</h3>
-              <ul>
-                <li>Author/Artist: Adrian Aguilera (<a href="https://www.adrianaguilera.com" target="_blank">www.adrianaguilera.com</a>)</li>
-                <li>Digital Consultant: Rachel Stuckey (<a href="https://rachelstuckey.net" target="_blank">www.rachelstuckey.net</a>)</li>
-                <li>Web Developer: Leroy Rosales (<a href="https://leroyrosales.com" target="_blank">leroyrosales.com</a>)</li>
-              </ul>
             </div>
           </section>
         </Container>

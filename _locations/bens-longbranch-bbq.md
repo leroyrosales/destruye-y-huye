@@ -17,7 +17,3 @@ gallery: [
 * <a href="http://www.eastendculturaldistrict.org/cms/culture-art-music/venues/bens-longbranch-bar-b-que" target="_blank">http://www.eastendculturaldistrict.org/cms/culture-art-music/venues/bens-longbranch-bar-b-que</a>
 * <a href="https://www.southernfoodways.org/interview/bens-long-branch-bar-b-q/" target="_blank">https://www.southernfoodways.org/interview/bens-long-branch-bar-b-q/</a>
 
-### Background Map Image
-Map_N-11-1973
-<a href="https://ahc.access.preservica.com/index.php/IO_1e044ab3-aed3-4a70-ad2c-615cefb1f83d/" target="_blank">https://ahc.access.preservica.com/index.php/IO_1e044ab3-aed3-4a70-ad2c-615cefb1f83d/</a>
-

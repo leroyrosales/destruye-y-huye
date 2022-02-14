@@ -18,7 +18,22 @@ export default function Locations({ allPosts }) {
             <PostTitle title="Locations" />
             <div>
               <p className="text-lg mb-8">
-              Plan your route to the East: Sun - Rise AR Intervention locations using maps and information on each location page guide. Where would you begin and extend your tour along the East: Sun - Rise ARI?
+                East: Sun - Rise AR Intervention blurs notions of art in public
+                places by virtually layering archival photographic material over
+                public places in East Austin using Augmented Reality (AR)
+                technology. The images' main protagonists, BIPOC (Black,
+                Indigenous, and People of Color), are documented celebrating
+                everyday life–playing sports, having a parade, demonstrating,
+                standing outside of a school or just having a walk in the
+                neighborhood. The physical markers–a street corner, a public
+                swimming pool, a baseball field, or an iconic moon tower light,
+                while trace in a virtual and a physical tour-like experiences
+                that relate to history, origin, and labor.
+                <br />
+                Plan your route to the East: Sun - Rise AR Intervention
+                locations using maps and information on each location page
+                guide. Where would you begin and extend your tour along the
+                East: Sun - Rise ARI?
               </p>
             </div>
           </section>

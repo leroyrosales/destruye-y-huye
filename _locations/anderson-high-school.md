@@ -42,7 +42,3 @@ gallery: [
 * <a target="_blank" href="https://www.austinmonitor.com/stories/2021/09/east-austin-stadium-celebrated-by-black-community-nominated-for-national-historic-status/
 ">https://www.austinmonitor.com/stories/2021/09/east-austin-stadium-celebrated-by-black-community-nominated-for-national-historic-status/</a>
 
-### Background Map Image
-Map_N-11-1973
-<a href="https://ahc.access.preservica.com/index.php/IO_1e044ab3-aed3-4a70-ad2c-615cefb1f83d/" target="_blank">https://ahc.access.preservica.com/index.php/IO_1e044ab3-aed3-4a70-ad2c-615cefb1f83d/</a>
-

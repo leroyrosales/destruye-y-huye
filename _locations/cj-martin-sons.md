@@ -13,7 +13,3 @@ gallery: [
 ]
 ---
 
-### Background Map Image
-Map_M-5_C Railroad
-<a href="https://ahc.access.preservica.com/index.php/IO_421dca5f-3c03-4f85-9f91-91ce12faae19/" target="_blank">https://ahc.access.preservica.com/index.php/IO_421dca5f-3c03-4f85-9f91-91ce12faae19/</a>
-

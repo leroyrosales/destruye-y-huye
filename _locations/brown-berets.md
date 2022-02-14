@@ -31,7 +31,3 @@ gallery: [
 * <a href="https://www.hmdb.org/m.asp?m=164672" target="_blank">https://www.hmdb.org/m.asp?m=164672</a>
 * <a href="https://storymaps.arcgis.com/stories/754a36d75f6440dea43b73f5562c6291" target="_blank">https://storymaps.arcgis.com/stories/754a36d75f6440dea43b73f5562c6291</a>
 
-### Background Map
-Map_M-1
-<a href="https://ahc.access.preservica.com/index.php/IO_8b729b06-7295-47d3-95e0-44453ef64828/" target="_blank">https://ahc.access.preservica.com/index.php/IO_8b729b06-7295-47d3-95e0-44453ef64828/</a>
-

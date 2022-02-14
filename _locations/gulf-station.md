@@ -12,7 +12,3 @@ gallery: [
     }
 ]
 ---
-
-### Background Map Image
-Map_M-1
-<a href="https://ahc.access.preservica.com/index.php/IO_8b729b06-7295-47d3-95e0-44453ef64828/" target="_blank">https://ahc.access.preservica.com/index.php/IO_8b729b06-7295-47d3-95e0-44453ef64828/</a>
