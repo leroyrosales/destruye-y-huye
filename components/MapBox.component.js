@@ -1,5 +1,4 @@
-import { useState } from "react";
-import ReactMapboxGl, { Popup, Marker, ZoomControl, Layer, Feature } from "react-mapbox-gl";
+import ReactMapboxGl, { Popup, Marker, ZoomControl } from "react-mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 require("mapbox-gl/dist/mapbox-gl.css");

@@ -5,6 +5,7 @@ import { CMS_NAME } from "../lib/constants";
 import PostTitle from "../components/post-title.component";
 import MoreLocations from "../components/more-locations.component";
 import { getAllPosts } from "../lib/api";
+import MapView from "../components/all-locations.component";
 
 export default function Locations({ allPosts }) {
   return (
@@ -37,6 +38,9 @@ export default function Locations({ allPosts }) {
               </p>
             </div>
           </section>
+        </Container>
+        <Container>
+          <MapView/>
         </Container>
         <MoreLocations posts={allPosts} />
       </Layout>
