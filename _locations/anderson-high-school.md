@@ -1,7 +1,10 @@
 ---
 title: 'Anderson High School Student Groups and Athletes'
 address: "902 Thompson St, Austin TX 78702"
-coords: "30.270519, -97.709000"
+coords: {
+    "lat": -97.709000,
+    "lng": 30.270519
+}
 coverImage: '/assets/locations/anderson-hs/anderson-hs-cover.jpg'
 gallery: [
     {

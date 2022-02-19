@@ -1,7 +1,10 @@
 ---
 title: "Juneteenth Celebration"
 address: "1900 Rosewood Ave, Austin, TX 78702"
-coords: "30.269917,-97.7188694"
+coords: {
+    "lat": -97.7188694,
+    "lng": 30.269917
+}
 coverImage: '/assets/locations/juneteenth/juneteenth-cover.jpg'
 gallery: [
     {

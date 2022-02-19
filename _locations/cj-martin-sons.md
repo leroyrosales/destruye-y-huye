@@ -1,7 +1,10 @@
 ---
 title: 'Black lady and railroads tracks'
 address: "1799 E 5th St, Austin, TX 78702"
-coords: "30.260820, -97.723130"
+coords: {
+    "lat": -97.723130,
+    "lng": 30.260820
+}
 coverImage: '/assets/locations/cj-martin-sons/cj-martin-sons-cover.jpg'
 gallery: [
     {

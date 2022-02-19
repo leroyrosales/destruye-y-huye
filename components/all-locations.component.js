@@ -11,19 +11,13 @@ const Map = ReactMapboxGl({
 export default function AllLocations({ allLocations }) {
   const [ listLocations, updateListLocations ] = useState("");
 
-  const convertLatLng = (string) => {
-    const [lat, lng] = string.split(",");
-    const converted = { lng, lat };
-    return converted;
-  };
-
   const showAvailableMembers = () => {
     const locationJsx = [];
     allLocations.map((location, i) => (
       locationJsx.push(
         <div key={i} onClick={(e) => moreInfo(e)}>
         <Popup
-          coordinates={convertLatLng(location.coords)}
+          coordinates={[location.coords.lat, location.coords.lng]}
           offset={{
             "bottom-left": [12, -38],
             bottom: [0, -38],
@@ -36,7 +30,7 @@ export default function AllLocations({ allLocations }) {
           </p>
         </Popup>
         <Marker
-          coordinates={convertLatLng(location.coords)}
+          coordinates={[location.coords.lat, location.coords.lng]}
           anchor="bottom"
         >
           <span className="text-6xl" role="img" aria-label="push-pin">

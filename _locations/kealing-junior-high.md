@@ -1,7 +1,10 @@
 ---
 title: 'Kealing Junior High School Students and moontower'
 address: "1607 Pennsylvania Ave, Austin, TX 78702"
-coords: "30.2711401,-97.7237462"
+coords: {
+    "lat": -97.7237462,
+    "lng": 30.2711401
+}
 coverImage: '/assets/locations/kealing/kealing-cover.jpg'
 gallery: [
     {

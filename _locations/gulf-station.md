@@ -1,7 +1,10 @@
 ---
 title: 'Gulf Service Station and crew'
 address: "1614 E 12th St, Austin, TX 78702"
-coords: "30.2734301,-97.7227972"
+coords: {
+    "lat": -97.7227972,
+    "lng": 30.2734301
+}
 coverImage: '/assets/locations/gulf-station/gulf-station-cover.jpg'
 gallery: [
     {
