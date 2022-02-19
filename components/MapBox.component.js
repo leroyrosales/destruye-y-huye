@@ -19,7 +19,7 @@ export default function MapBox({ title, coordinates }) {
   return (
     <div>
       <Map
-        style="mapbox://styles/mapbox/streets-v8"
+        style="mapbox://styles/mapbox/streets-v8?optimize=true"
         containerStyle={{
           height: "400px",
           width: "100%",

@@ -4,7 +4,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 const Map = ReactMapboxGl({
   accessToken: process.env.NEXT_PUBLIC_MAPBOX_API,
   logoPosition: "top-left",
-  scrollZoom: false
+  scrollZoom: false,
 });
 
 export default function AllLocations({ allLocations }) {
@@ -28,7 +28,7 @@ export default function AllLocations({ allLocations }) {
   return (
     <>
       <Map
-        style="mapbox://styles/mapbox/streets-v8"
+        style="mapbox://styles/mapbox/streets-v8?optimize=true"
         containerStyle={{
           height: "600px",
           width: "100%",
