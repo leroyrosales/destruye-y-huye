@@ -159,13 +159,13 @@ export default function about() {
                   </a>
                 </li>
               </ul>
-              <h3>Acknowledgment</h3>
+              <h3 className="mt-4">Acknowledgment</h3>
               <p>
                 Special thank you to the Austin History Center staff who
                 provided time, resources and expertise to my research at Austin
                 History Center Reading Room.
               </p>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <p className="text-center">
                   <Image
                     src={cad_logo}

@@ -5,7 +5,7 @@ import { CMS_NAME } from "../lib/constants";
 import PostTitle from "../components/post-title.component";
 import MoreLocations from "../components/more-locations.component";
 import { getAllPosts } from "../lib/api";
-import MapView from "../components/all-locations.component";
+import AllLocations from "../components/all-locations.component";
 
 export default function Locations({ allPosts }) {
   return (
@@ -40,7 +40,7 @@ export default function Locations({ allPosts }) {
           </section>
         </Container>
         <Container>
-          <MapView/>
+          <AllLocations allLocations={allPosts}/>
         </Container>
         <MoreLocations posts={allPosts} />
       </Layout>
@@ -56,6 +56,7 @@ export async function getStaticProps() {
     "slug",
     "author",
     "coverImage",
+    "coords",
   ]);
 
   return {

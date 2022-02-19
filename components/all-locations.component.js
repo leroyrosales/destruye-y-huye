@@ -1,4 +1,4 @@
-import ReactMapboxGl, { Marker, Layer, Feature } from "react-mapbox-gl";
+import ReactMapboxGl, { Popup, Marker, ZoomControl, Layer, Feature } from "react-mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 const Map = ReactMapboxGl({
@@ -6,14 +6,23 @@ const Map = ReactMapboxGl({
   logoPosition: "top-left",
 });
 
-const allCoords = [
-    [-97.709000, 30.270519],
-    [-97.731270, 30.270090],
-    [-97.724830, 30.249640],
-]
+export default function AllLocations({ allLocations }) {
+  const convertLatLng = (string) => {
+    const [lat, lng] = string.split(",");
+    const converted = { lng, lat };
+    return converted;
+  };
 
-export default function AllLocations() {
-    
+  const moreInfo = (e) => {
+    const popup = e.target.parentElement.previousSibling;
+
+    if( ! popup ) return;
+
+    if( popup.classList.contains('mapboxgl-popup') ) {
+      popup.classList.toggle('visible-popup');
+    }
+  };
+
   return (
     <>
       <Map
@@ -21,16 +30,36 @@ export default function AllLocations() {
         containerStyle={{
           height: "600px",
           width: "100%",
+          marginBottom: "40px",
         }}
-        center={[-97.709000, 30.270519]}
-        zoom={[14]}
+        center={[-97.709, 30.265]}
+        zoom={[13]}
       >
-        {allCoords.map( coord => (
-            <Marker coordinates={coord} anchor="bottom">
-            <span className="text-6xl" role="img" aria-label="push-pin">
-              📌
-            </span>
-          </Marker>
+        <ZoomControl/>
+        {allLocations.map((location, i) => (
+          <div key={i} onClick={(e) => moreInfo(e)}>
+            <Popup
+              coordinates={convertLatLng(location.coords)}
+              offset={{
+                "bottom-left": [12, -38],
+                bottom: [0, -38],
+                "bottom-right": [-12, -38],
+              }}
+              className="marker-popup z-50"
+            >
+              <p className="text-lg mb-0">
+                <a href={`/locations/${location.slug}`}>{location.title}</a>
+              </p>
+            </Popup>
+            <Marker
+              coordinates={convertLatLng(location.coords)}
+              anchor="bottom"
+            >
+              <span className="text-6xl" role="img" aria-label="push-pin">
+                📌
+              </span>
+            </Marker>
+          </div>
         ))}
       </Map>
     </>

@@ -9,6 +9,7 @@ const Map = ReactMapboxGl({
 });
 
 export default function MapBox({ title, coordinates }) {
+
   const moreInfo = () => {
     const popup = document.querySelector('.mapboxgl-popup');
 
