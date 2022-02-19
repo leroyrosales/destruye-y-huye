@@ -74,6 +74,7 @@ button:disabled {
 
 .marker-popup.visible-popup {
   visibility: visible !important;
+  z-index: 9!important;
 }
 
 .fixed-nav {
