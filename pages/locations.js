@@ -30,17 +30,18 @@ export default function Locations({ allPosts }) {
                 swimming pool, a baseball field, or an iconic moon tower light,
                 while trace in a virtual and a physical tour-like experiences
                 that relate to history, origin, and labor.
-                <br />
-                Plan your route to the East: Sun - Rise AR Intervention
+              </p>
+              <p className="text-lg mb-8">Plan your route to the East: Sun - Rise AR Intervention
                 locations using maps and information on each location page
                 guide. Where would you begin and extend your tour along the
-                East: Sun - Rise ARI?
-              </p>
+                East: Sun - Rise ARI?</p>
             </div>
           </section>
         </Container>
         <Container>
-          <AllLocations allLocations={allPosts}/>
+          <section className="mx-auto w-full md:w-5/6">
+            <AllLocations allLocations={allPosts}/>
+          </section>
         </Container>
         <MoreLocations posts={allPosts} />
       </Layout>

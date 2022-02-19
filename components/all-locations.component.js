@@ -4,9 +4,11 @@ import "mapbox-gl/dist/mapbox-gl.css";
 const Map = ReactMapboxGl({
   accessToken: process.env.NEXT_PUBLIC_MAPBOX_API,
   logoPosition: "top-left",
+  scrollZoom: false
 });
 
 export default function AllLocations({ allLocations }) {
+
   const convertLatLng = (string) => {
     const [lat, lng] = string.split(",");
     const converted = { lng, lat };
@@ -32,7 +34,7 @@ export default function AllLocations({ allLocations }) {
           width: "100%",
           marginBottom: "40px",
         }}
-        center={[-97.709, 30.265]}
+        center={[-97.72, 30.265]}
         zoom={[13]}
       >
         <ZoomControl/>
