@@ -5,7 +5,13 @@ import { CMS_NAME } from "../lib/constants";
 import PostTitle from "../components/post-title.component";
 import MoreLocations from "../components/more-locations.component";
 import { getAllPosts } from "../lib/api";
-import AllLocations from "../components/all-locations.component";
+
+import dynamic from 'next/dynamic'
+const AllLocations = dynamic(
+  () => import('../components/all-locations.component'),
+  { loading: () => <p>Loading...</p> }
+)
+
 
 export default function Locations({ allPosts }) {
   return (
