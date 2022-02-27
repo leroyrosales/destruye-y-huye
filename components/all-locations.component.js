@@ -18,11 +18,6 @@ export default function AllLocations({ allLocations }) {
         <div key={i} onClick={(e) => moreInfo(e)}>
         <Popup
           coordinates={[location.coords.lat, location.coords.lng]}
-          offset={{
-            "bottom-left": [12, -38],
-            bottom: [0, -38],
-            "bottom-right": [-12, -38],
-          }}
           className="marker-popup z-90"
         >
           <p className="text-lg mb-0">
@@ -31,7 +26,7 @@ export default function AllLocations({ allLocations }) {
         </Popup>
         <Marker
           coordinates={[location.coords.lat, location.coords.lng]}
-          anchor="bottom"
+          anchor="bottom-left"
         >
           <span className="text-6xl" role="img" aria-label="push-pin">
             📌

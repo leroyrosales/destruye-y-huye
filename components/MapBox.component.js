@@ -39,7 +39,7 @@ export default function MapBox({ title, coordinates }) {
         >
           <p className="text-xl mb-0">{ title }</p>
         </Popup>
-        <Marker coordinates={coordinates} onClick={() => moreInfo()}>
+        <Marker coordinates={coordinates} onClick={() => moreInfo()} anchor="bottom-left">
           <span className="text-6xl" role="img" aria-label="push-pin">
             📌
           </span>
