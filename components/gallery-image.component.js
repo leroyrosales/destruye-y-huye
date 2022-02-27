@@ -1,27 +1,29 @@
 import React from "react";
 
 export default function GalleryImage({ img, openModal }) {
+  const { image, title, credit } = img;
+
   return (
     <figure>
       <picture>
         <img
           loading="lazy"
-          src={img.image}
+          src={image}
           onClick={() => openModal(img)}
-          alt={img.title ? img.title : `Photograph of ${title}`}
+          alt={title ? title : `Photograph of ${title}`}
           tabIndex="0"
           onKeyDown={() => handleKeyDown(img)}
           onKeyDown={(e) => e.key === "Enter" && openModal(img)}
           className="hover:cursor-pointer"
         />
       </picture>
-      {img.title ? (
+      {title ? (
         <figcaption className="text-base pt-2">
-          <strong>{img.title}</strong>
+          <strong>{title}</strong>
         </figcaption>
       ) : null}
-      {img.credit ? (
-        <cite className="text-sm pt-2 italic">{img.credit}</cite>
+      {credit ? (
+        <cite className="text-sm pt-2 italic">{credit}</cite>
       ) : null}
     </figure>
   );

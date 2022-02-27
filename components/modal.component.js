@@ -45,6 +45,7 @@ export default function Modal({
             padding: '20px',
             maxWidth: "64rem",
             margin: "1.5rem auto",
+            height: 'fit-content'
           }
         }}
       >

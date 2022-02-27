@@ -34,7 +34,7 @@ export default function PostBody({ title, gallery, content }) {
         }`}
         id="content"
       >
-        <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
+        <div className="grid grid-cols-1 auto-rows-min md:gap-8 md:grid-cols-2">
           {gallery?.map( (img, i) => (
             <GalleryImage key={i} img={img} openModal={openModal} />
           ))}

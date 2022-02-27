@@ -43,6 +43,15 @@ p {
   @apply mb-8;
 }
 
+cite span,
+sup {
+  @apply text-red font-bold;
+}
+
+cite {
+  @apply block pb-4;
+}
+
 main a {
   @apply underline text-red;
     overflow-wrap: break-word;

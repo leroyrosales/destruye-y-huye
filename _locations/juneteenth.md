@@ -25,6 +25,12 @@ gallery: [
 
 Juneteenth commemorates the end of formal slavery in Texas on June 19, 1865, two and a half years after President Abraham Lincoln signed the Emancipation Proclamation on January 1, 1863, and more than one month following the end of the American Civil War. Colloquially known as “The Black 4th of July,” Juneteenth marks the beginning of an African American journey to carve a new place in society for free people to shape identities independent of racial caricature, eradicate “slave culture, promote ethnic pride, and create economic prosperity.
 
+Austin’s earliest Juneteenth celebrations were held at Wheeler’s Grove, which is now know as Eastwoods Park is located just northeast and adjacent to the University of Texas at Austin campus. Some decades later, Thomas J. White, a former slave, thought Juneteenth should be held on land owned by black residents themselves. He founded the Emancipation Park Association in 1905, and two years later, it completed the purchase of a 5-acre tract near Rosewood Avenue and Chicon Street.
+
+About 30 years after the purchase of Emancipation Park, the city of Austin seized the land through eminent domain. It would later house Rosewood Courts, the city’s public housing project, which was at the time specifically for African-Americans. In fact, the site of Emancipation Park has been relocated several times: from Wheeler’s Grove to the property purchased by White’s association and later to Rosewood Park, where Juneteenth celebrations are still held today.
+
+The Buffalo Soldiers comprised one of the most interesting military aggregations in post-war Texas. On July 28, 1866, the U.S. Congress authorized six regiments of black troops – two of cavalry and four of infantry – to be added to the U.S. Army. The nickname "Buffalo Soldiers" was given by Indians, who thought that the tightly curled hair of the black soldiers resembled the curly hair on a bison's face. Since the bison was revered by the Indians, the nickname was considered a term of respect, and the Buffalo Soldiers proudly featured a bison on their regimental crest.
+
 ### Collective memory archive
 * <a href="https://www.tsl.texas.gov/ref/abouttx/juneteenth.html" target="_blank">https://www.tsl.texas.gov/ref/abouttx/juneteenth.html</a>
 * <a href="https://www.juneteenthcentraltexas.com/" target="_blank">https://www.juneteenthcentraltexas.com/</a>
