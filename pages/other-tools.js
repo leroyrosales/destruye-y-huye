@@ -9,11 +9,11 @@ export default function MapsAndTools() {
     <>
       <Layout>
         <Head>
-          <title>Maps, software &amp; online tools | {CMS_NAME}</title>
+          <title>Other Tools | {CMS_NAME}</title>
         </Head>
         <Container>
           <section className="grid grid-cols-1 xl:grid-cols-2 gap-8" id="content">
-            <PostTitle title="Maps, software &amp; online tools" />
+            <PostTitle title="Other Tools" />
             <div>
               <ul>
               <li className="mb-8">

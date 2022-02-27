@@ -123,7 +123,7 @@ export default function about() {
                   <a href="https://www.facebook.com/augzoo/" target="_blank">
                     <svg
                       height="33px"
-                      className="fill-green hover:fill-blue"
+                      className="fill-red hover:fill-blue"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 320 512"
                     >
@@ -136,7 +136,7 @@ export default function about() {
                   <a href="https://twitter.com/augzoo" target="_blank">
                     <svg
                       height="33px"
-                      className="fill-green hover:fill-blue"
+                      className="fill-red hover:fill-blue"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
                     >
@@ -149,7 +149,7 @@ export default function about() {
                   <a href="https://www.instagram.com/augzoo/" target="_blank">
                     <svg
                       height="33px"
-                      className="fill-green hover:fill-blue"
+                      className="fill-red hover:fill-blue"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 448 512"
                     >
@@ -160,6 +160,14 @@ export default function about() {
                 </li>
               </ul>
               <h3 className="mt-4">Acknowledgment</h3>
+              <p>
+                <strong>East: Sun - Rise ARI</strong> is a FY 21-22 Community
+                Initiatives project awarded by City of Austin Cultural Arts
+                Funding Program and the Economic Development Department and
+                sponsored by The Museum of Human Achievement, a 503c non-profit
+                org based in Austin, Texas and supported by Austin Mutual Aid
+                Micro-grant.
+              </p>
               <p>
                 Special thank you to the Austin History Center staff who
                 provided time, resources and expertise to my research at Austin

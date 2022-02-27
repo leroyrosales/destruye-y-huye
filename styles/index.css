@@ -7,10 +7,6 @@ body {
   @apply text-lg font-medium;
 }
 
-:focus-visible {
-  @apply bg-orange text-black;
-}
-
 h2,
 h3,
 h4,
@@ -48,18 +44,12 @@ p {
 }
 
 main a {
-  @apply underline text-green;
-    /* These are technically the same, but use both */
+  @apply underline text-red;
     overflow-wrap: break-word;
     word-wrap: break-word;
-
     -ms-word-break: break-all;
-    /* This is the dangerous one in WebKit, as it breaks things wherever */
     word-break: break-all;
-    /* Instead use this non-standard one: */
     word-break: break-word;
-
-    /* Adds a hyphen where the word breaks, if supported (No Blink) */
     -ms-hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -72,7 +62,7 @@ main a:hover {
 
 button[type="submit"],
 button {
-  @apply mr-2 mb-2 bg-green hover:bg-blue text-white font-medium py-1 px-4;
+  @apply mr-2 mb-2 bg-red hover:bg-blue text-white font-medium py-1 px-4;
 }
 
 button:disabled {
@@ -102,6 +92,11 @@ button:disabled {
 .fixed-nav a {
   @apply text-white;
 }
+
+.fixed-nav button {
+  @apply bg-white text-red hover:bg-blue hover:text-white;
+}
+
 
 @keyframes fade-in {
   from {
@@ -145,7 +140,7 @@ button:disabled {
     width: 100vw;
     top: 0;
     transition-duration: 0.5s;
-    @apply bg-green;
+    @apply bg-red;
   }
 
   .mobile-nav.open {
@@ -165,19 +160,15 @@ form {
   @apply border-2 border-solid border-green px-8 pt-6 pb-8 mb-4;
 }
 
-form div {
-  @apply mb-8;
-}
-
 form label {
   @apply block text-gray-700 text-base font-bold mb-2;
 }
 
 form input,
 form textarea {
-  @apply bg-gray-200 shadow appearance-none border border-gray-200 rounded w-full py-3 px-4 pr-8 text-gray-700 leading-tight placeholder-gray-700;
+  @apply bg-gray-200 shadow appearance-none border border-gray-200 rounded w-full py-3 px-4 pr-8 text-gray-700 leading-tight placeholder-gray-700 mb-12;
 }
 
 form select {
-  @apply block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500;
+  @apply block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 mb-12;
 }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Modal from "./modal.component";
 import ReactModal from "react-modal";
+import GalleryImage from "./gallery-image.component";
 
 export default function PostBody({ title, gallery, content }) {
   const [clickedImg, setClickedImg] = useState(null);
@@ -34,29 +35,8 @@ export default function PostBody({ title, gallery, content }) {
         id="content"
       >
         <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
-          {gallery?.map((img, i) => (
-            <figure>
-              <picture>
-                <img
-                  loading="lazy"
-                  src={img.image}
-                  onClick={() => openModal(img)}
-                  alt={img.title ? img.title : `Photograph of ${title}`}
-                  tabIndex="0"
-                  onKeyDown={() => handleKeyDown(img)}
-                  key={i}
-                  onKeyDown={e => e.key === 'Enter' && openModal(img)}
-                />
-              </picture>
-              {img.title ? (
-                <figcaption className="text-base pt-2">
-                  <strong>{img.title}</strong>
-                </figcaption>
-              ) : null}
-              {img.credit ? (
-                <cite className="text-sm pt-2 italic">{img.credit}</cite>
-              ) : null}
-            </figure>
+          {gallery?.map( (img, i) => (
+            <GalleryImage key={i} img={img} openModal={openModal} />
           ))}
           {clickedImg && (
             <Modal

@@ -1,5 +1,5 @@
 ---
-title: "Ben's Longbranch Bar-B-Que"
+title: "Ben's Long Branch BBQ"
 address: "900 E 11th St, Austin, TX 78702"
 coords: {
     "lat": -97.731270,

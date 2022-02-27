@@ -26,7 +26,7 @@ export default function Navigation() {
         >
           <button
             onClick={closeNav}
-            className="bg-white text-green hover:bg-blue hover:text-white absolute top-16 left-4 block lg:hidden"
+            className="bg-white text-red hover:bg-blue hover:text-white absolute top-16 left-4 block lg:hidden"
           >
             Close
           </button>
@@ -48,11 +48,11 @@ export default function Navigation() {
               Research
             </a>
           </Link>
-          <Link href="/maps-tools">
+          <Link href="/other-tools">
             <a
-              className={`${router.pathname == "/maps-tools" ? "active" : ""}`}
+              className={`${router.pathname == "/other-tools" ? "active" : ""}`}
             >
-              Maps & Tools
+              Other Tools
             </a>
           </Link>
           <Link href="/survey">
