@@ -19,6 +19,9 @@ export default function AllLocations({ allLocations }) {
         <Popup
           coordinates={[location.coords.lat, location.coords.lng]}
           className="marker-popup z-90"
+          offset={{
+            bottom: [15, -38],
+          }}
         >
           <p className="text-lg mb-0">
             <a href={`/locations/${location.slug}`}>{location.title}</a>

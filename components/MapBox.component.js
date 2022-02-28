@@ -31,9 +31,7 @@ export default function MapBox({ title, coordinates }) {
         <Popup
           coordinates={coordinates}
           offset={{
-            "bottom-left": [12, -38],
-            bottom: [0, -38],
-            "bottom-right": [-12, -38],
+            bottom: [15, -38],
           }}
           className="marker-popup"
         >
