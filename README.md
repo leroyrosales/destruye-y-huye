@@ -1,5 +1,5 @@
 #  East: Sun - Rise ARI
-## A statically generated site that highlights different locations of interestin East Austin.
+## A statically generated site that highlights different locations of interest in East Austin.
 
 East: Sun - Rise AR Intervention is an augmented reality experience/project that uses archival photographic material and a web-based application to plot markers in the neighborhoods of East Austin.
 
