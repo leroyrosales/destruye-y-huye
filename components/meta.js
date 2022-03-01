@@ -21,7 +21,6 @@ export default function Meta() {
         sizes="16x16"
         href="/favicon/favicon-16x16.png"
       />
-      <link rel="manifest" href="/favicon/site.webmanifest" />
       <link
         rel="mask-icon"
         href="/favicon/safari-pinned-tab.svg"
@@ -34,9 +33,10 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js with Markdown.`}
+        content={`An AR project to plot locations in East Austin.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+      <link rel="manifest" href="/manifest.json" />
     </Head>
   )
 }
