@@ -10,7 +10,7 @@ export default function PostHeader({ title, address, coords }) {
 
   return (
     <>
-      <section className="grid grid-cols-1 xl:grid-cols-2">
+      <section className="grid grid-cols-1 xl:grid-cols-2 xl:gap-4">
         <div>
           <PostTitle title={title} />
           <Address address={address} />

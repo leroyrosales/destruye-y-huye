@@ -1,25 +1,10 @@
-# Eastside Project
-## A statically generated blog example using Next.js with Markdown about locations on the Eastside of Austin
+#  East: Sun - Rise ARI
+## A statically generated site that highlights different locations of interestin East Austin.
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
+East: Sun - Rise AR Intervention is an augmented reality experience/project that uses archival photographic material and a web-based application to plot markers in the neighborhoods of East Austin.
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+East: Sun - Rise AR Intervention blurs notions of art in public places by virtually layering archival photographic material over public places in East Austin using Augmented Reality (AR) technology. The images' main protagonists, BIPOC (Black, Indigenous, and People of Color), are documented celebrating everyday life–playing sports, having a parade, demonstrating, standing outside of a school or just having a walk in the neighborhood. The physical markers–a street corner, a public swimming pool, a baseball field, or an iconic moon tower light, while trace in a virtual and a physical tour-like experiences that relate to history, origin, and labor.
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+## Stack
 
-## How to use (with Next.js sample starter)
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example blog-starter blog-starter-app
-# or
-yarn create next-app --example blog-starter blog-starter-app
-```
-
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
-
-
-# Notes
-
-This blog-starter uses [Tailwind CSS](https://tailwindcss.com). To control the generated stylesheet's filesize, this example uses Tailwind CSS' v2.0 [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+This site was built using [Next.js](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com).

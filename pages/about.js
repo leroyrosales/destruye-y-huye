@@ -5,9 +5,6 @@ import { CMS_NAME } from "../lib/constants";
 import PostTitle from "../components/post-title.component";
 import Image from "next/image";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-
 import cad_logo from "../public/assets/logos/LOGO_CAD_color.png";
 import moha_logo from "../public/assets/logos/MoHA_logo-vertical-blue-HIGH_RES.png";
 import augzoo_logo from "../public/assets/logos/augzoo_Icon_slogan.jpg";

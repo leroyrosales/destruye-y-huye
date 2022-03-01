@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Modal from "./modal.component";
-import ReactModal from "react-modal";
 import GalleryImage from "./gallery-image.component";
 
 export default function PostBody({ title, gallery, content }) {

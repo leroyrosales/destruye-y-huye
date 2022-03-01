@@ -1,8 +1,6 @@
 import ReactMapboxGl, { Popup, Marker, ZoomControl } from "react-mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-require("mapbox-gl/dist/mapbox-gl.css");
-
 const Map = ReactMapboxGl({
   accessToken: process.env.NEXT_PUBLIC_MAPBOX_API,
   logoPosition: "top-left",

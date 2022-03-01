@@ -138,6 +138,9 @@ button:disabled {
   @apply opacity-100;
 }
 
+.react-transform-wrapper {
+  margin: 0 auto!important;
+}
 
 @media (max-width: 1024px) {
   .mobile-nav {
