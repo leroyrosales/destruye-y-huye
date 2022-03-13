@@ -115,6 +115,7 @@ export default function about() {
                 </a>{" "}
                 store.
               </p>
+              <p>augzoo is an Austin-based augmented reality company founded in 2016. augzoo’s mission is to create augmented reality experiences that entertain, educate, and engage members of digital communities.</p>
               <ul className="flex justify-center gap-8">
                 <li>
                   <a href="https://www.facebook.com/augzoo/" target="_blank">
