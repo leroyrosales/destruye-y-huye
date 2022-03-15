@@ -47,6 +47,8 @@ During The Great Depression, the Civil Works Administration (CWA) and Works Prog
 
 In the summer of 1963, the Austin city pools and parks quietly integrated. Rosewood Park continues to serve as the heart of the neighborhood and as an important space in the cultural history of Austin. Nestled in East Austin, Rosewood Park is a gem in the Texas neighborhood and municipal park system. While its initial development reflects a time of segregation and city planning policies designed to perpetuate racial injustices, Rosewood Park and the community it serves have utilized this iconic public space to bring health, wellness and solidarity to the community.
 
+The textual content description furnished above comes from the following web sites that offer insights about factual information.
+
 ### Collective memory archive
 
 * <a href="https://austinparks.org/rosewood-park/" target="_blank">https://austinparks.org/rosewood-park/</a>
