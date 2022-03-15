@@ -41,6 +41,7 @@ L.C. Anderson High School in Austin, Texas, serves as a case study for community
 
 Despite being constructed in the South during the Jim Crow era, Anderson High and Yellow Jacket Stadium quickly became celebrated. Perhaps most noteworthy was Anderson’s football team, which produced NFL players and earned state championships and drew visits from football legends like Darrell Royal. More than 8,000 people were in attendance when the team won its 1957 state title. The old Anderson High School building sits atop a small hill at 900 Thompson street in East Austin, east of Pleasant Valley road.
 
+The textual content description furnished above comes from the following web sites that offer insights about factual information.
 ### Collective memory archive
 * <a target="_blank" href="https://txarchives.org/aushc/finding_aids/00238.xml">https://txarchives.org/aushc/finding_aids/00238.xml</a>
 * <a target="_blank" href="https://www.bulbapp.com/u/a-look-into-anderson-high-school">https://www.bulbapp.com/u/a-look-into-anderson-high-school</a>

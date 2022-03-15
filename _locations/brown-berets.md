@@ -34,6 +34,7 @@ An interview with East Austin resident, Pete Martinez, revealed that the boat ra
 <cite><span>3.</span> "WATCH VIDEO: 'Boats in the Barrio' about Austin protests in the 1970s | Austin Found". Retrieved 2018-12-01.
 (<a href="https://www.youtube.com/watch?v=LIUqVdBnZcQ" target="_blank">https://www.youtube.com/watch?v=LIUqVdBnZcQ</a>)</cite>
 
+The textual content description furnished above comes from the following web sites that offer insights about factual information.
 ### Collective memory archive
 
 * <a href="https://en.wikipedia.org/wiki/Brown_Berets_(Austin)" target="_blank">https://en.wikipedia.org/wiki/Brown_Berets_(Austin)</a>

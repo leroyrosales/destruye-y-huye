@@ -34,6 +34,9 @@ In the summer of 1959, Givens District Park opened to the public as the second s
 The Givens District Park Vision Plan was approved in January 2019 to provide a framework for improvements to the park. Using 2018 bond funding, the first phase of implementing the plan has begun. Currently, the city is in the process of making improvements to the park in accordance with a vision plan that was approved in January 2019.
 
 The Texas Recreation and Parks Society honored East 12th Street’s Givens District Park on February 16, 2022, naming it one of three new Lone Star Legacy parks this year. Givens joins Zilker, Parque Zaragoza, Pease, Eastwoods, and Rosewood parks, which have also earned the historic designation. A new restroom, multi-use field, field fighting and plaza– replacement of a small restroom south of the recreation center with a new, larger, accessible restroom, adjacent to a new plaza with shaded picnic seating and an accessible walkway that will connect to the recreation center. The project will also replace an under-utilized ball field with a multi-purpose field including new fencing and field lighting. Work is anticipated to begin in the summer of 2022 and completed late spring of 2023.
+
+The textual content description furnished above comes from the following web sites that offer insights about factual information.
+
 ### Collective memory archive
 
 * <a href="https://www.austintexas.gov/department/givens-district-pool" target="_blank">https://www.austintexas.gov/department/givens-district-pool</a>
