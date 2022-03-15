@@ -35,9 +35,9 @@ The Pan American Recreation Center was opened in June 1942 as the first Latin Am
 
 The addition of the Hillside Theater,  sparked what would later be known as Austin's longest running live music series. The Hillside Theater has featured Mexican-American and Tejano musicians like Alfonso Ramos, Manuel Donley, Leonard Davila, Freddy Martinez, Johnny and the Sensations, Flaco Jimenez, Shorty and the Corvettes, and Nash Hernandez Orchestra, to mention a few of many legends in the Mexican American music.
 
-The textual content description furnished above comes from the following web sites that offer insights about factual information.
-
 ### Collective memory archive
+
+The textual content description furnished above comes from the following web sites that offer insights about factual information.
 
 * <a href="https://www.austintexas.gov/department/oswaldo-ab-cantupan-american-recreation-center" target="_blank">https://www.austintexas.gov/department/oswaldo-ab-cantupan-american-recreation-center</a>
 * <a href="https://texashistory.unt.edu/search/?q=%22Pan+American+Recreation+Center%22&t=fulltext&sort=" target="_blank">https://texashistory.unt.edu/search/?q=%22Pan+American+Recreation+Center%22&t=fulltext&sort=</a>

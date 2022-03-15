@@ -40,9 +40,10 @@ African American public school education in the South has roots in the Freedmen�
 L.C. Anderson High School in Austin, Texas, serves as a case study for community cohesion and pride in the face of institutional racism. Austin’s only Black high school is rooted in the 1880s. While the school continually suffered from unequal funding and investment, it was upgraded in 1953 in an attempt to forestall any desegregation lawsuits in Austin. This new school building provided amenities like a gymnasium, athletic fields, and specialized classrooms for the first time, but quickly became overcrowded. Ultimately, the new Anderson High School was only open less than 20 years, as the Austin Independent School District (AISD) chose to close the high school in 1971 and bus its students to local white high schools to attain integration. Similar erasures of long-standing African American institutions occurred across the South.
 
 Despite being constructed in the South during the Jim Crow era, Anderson High and Yellow Jacket Stadium quickly became celebrated. Perhaps most noteworthy was Anderson’s football team, which produced NFL players and earned state championships and drew visits from football legends like Darrell Royal. More than 8,000 people were in attendance when the team won its 1957 state title. The old Anderson High School building sits atop a small hill at 900 Thompson street in East Austin, east of Pleasant Valley road.
+### Collective memory archive
 
 The textual content description furnished above comes from the following web sites that offer insights about factual information.
-### Collective memory archive
+
 * <a target="_blank" href="https://txarchives.org/aushc/finding_aids/00238.xml">https://txarchives.org/aushc/finding_aids/00238.xml</a>
 * <a target="_blank" href="https://www.bulbapp.com/u/a-look-into-anderson-high-school">https://www.bulbapp.com/u/a-look-into-anderson-high-school</a>
 * <a target="_blank" href="https://www.andersononline.org/apps/pages/index.jsp?uREC_ID=219561&type=d&pREC_ID=1125288">https://www.andersononline.org/apps/pages/index.jsp?uREC_ID=219561&type=d&pREC_ID=1125288</a>

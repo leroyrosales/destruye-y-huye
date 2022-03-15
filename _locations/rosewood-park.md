@@ -51,6 +51,8 @@ The textual content description furnished above comes from the following web sit
 
 ### Collective memory archive
 
+The textual content description furnished above comes from the following web sites that offer insights about factual information.
+
 * <a href="https://austinparks.org/rosewood-park/" target="_blank">https://austinparks.org/rosewood-park/</a>
 * <a href="https://www.preservationaustin.org/news/2021/2/3/rosewood-park-a-historic-icon-of-austins-east-side" target="_blank">https://www.preservationaustin.org/news/2021/2/3/rosewood-park-a-historic-icon-of-austins-east-side</a>
 * <a href="https://en.wikipedia.org/wiki/Rosewood_Park_(Austin,_Texas)" target="_blank">https://en.wikipedia.org/wiki/Rosewood_Park_(Austin,_Texas)</a>

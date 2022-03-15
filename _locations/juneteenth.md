@@ -30,9 +30,10 @@ About 30 years after the purchase of Emancipation Park, the city of Austin seize
 
 The Buffalo Soldiers comprised one of the most interesting military aggregations in post-war Texas. On July 28, 1866, the U.S. Congress authorized six regiments of black troops – two of cavalry and four of infantry – to be added to the U.S. Army. The nickname "Buffalo Soldiers" was given by Indians, who thought that the tightly curled hair of the black soldiers resembled the curly hair on a bison's face. Since the bison was revered by the Indians, the nickname was considered a term of respect, and the Buffalo Soldiers proudly featured a bison on their regimental crest.
 
+### Collective memory archive
+
 The textual content description furnished above comes from the following web sites that offer insights about factual information.
 
-### Collective memory archive
 * <a href="https://www.tsl.texas.gov/ref/abouttx/juneteenth.html" target="_blank">https://www.tsl.texas.gov/ref/abouttx/juneteenth.html</a>
 * <a href="https://www.juneteenthcentraltexas.com/" target="_blank">https://www.juneteenthcentraltexas.com/</a>
 * <a href="https://juneteenthatx.com" target="_blank">https://juneteenthatx.com</a>

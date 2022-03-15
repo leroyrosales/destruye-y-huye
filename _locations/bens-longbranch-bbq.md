@@ -25,8 +25,10 @@ Ben Wash opened his original Ben's Long Branch BBQ in the Montopolis neighborhoo
 
 Ben’s Long Branch BBQ was open for more than 25 years until its closing for good in 2009. Ben Wash was well known as an expert pit boss, specializing in the traditional meats of African American barbecue, namely mutton and pool butt, although brisket. The space was taken over by Aaron Franklin, who brought the long lines with him, and whose barbecue caters to a predominately white audience, which reflects the changes taking place on the outskirts of Austin’s downtown just east of I-35. What was once a primary African American community per the 1928 city plan has gentrified steadily since 2007, with condos, boutiques, and hip bars and restaurants cropping up where long-standing black churches, shoes and cafés once were.
 
-The textual content description furnished above comes from the following web sites that offer insights about factual information.
 ### Collective memory archive
+
+The textual content description furnished above comes from the following web sites that offer insights about factual information.
+
 * <a href="http://www.eastendculturaldistrict.org/cms/culture-art-music/venues/bens-longbranch-bar-b-que" target="_blank">http://www.eastendculturaldistrict.org/cms/culture-art-music/venues/bens-longbranch-bar-b-que</a>
 * <a href="https://www.southernfoodways.org/interview/bens-long-branch-bar-b-q/" target="_blank">https://www.southernfoodways.org/interview/bens-long-branch-bar-b-q/</a>
 * <a href="https://www.degruyter.com/document/doi/10.7560/719989-016/html" >https://www.degruyter.com/document/doi/10.7560/719989-016/html</a>

@@ -25,9 +25,10 @@ Kealing Junior High School opened in the fall of 1930 as the first junior high s
 
 After serving as an annex for the Austin Independent School District (AISD) and community programs, Kealing’s building was devastated by fire. The original Kealing Junior High School building was razed in 1983, and the old Anderson High School on this site burned in 1984. A new Kealing Junior High was built and opened in 1986. In 1986, the school reopened as a junior high school, each for students in the Kealing community and for students throughout AISD who had been accustomed to its rigorous and innovative academic magnet math and science program. In 1993, the magnet program multiplied to include a focal point at the liberal arts as well. In the fall of 2004, Kealing opened its sixth grade program and has become a middle school.
 
+### Collective memory archive
+
 The textual content description furnished above comes from the following web sites that offer insights about factual information.
 
-### Collective memory archive
 * <a href="https://www.austinisd.org/schools/kealing" target="_blank">https://www.austinisd.org/schools/kealing</a>
 * <a href="http://www.eastendculturaldistrict.org/cms/schools-education/kealing-junior-high" target="_blank">http://www.eastendculturaldistrict.org/cms/schools-education/kealing-junior-high</a>
 * <a href="https://www.austinchronicle.com/news/2003-10-17/182184/" target="_blank">https://www.austinchronicle.com/news/2003-10-17/182184/</a>
