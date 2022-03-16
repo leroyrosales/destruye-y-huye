@@ -1,0 +1,11 @@
+fragment LocationsParts on Locations {
+  title
+  address
+  coords {
+    __typename
+    lat
+    lng
+  }
+  coverImage
+  body
+}

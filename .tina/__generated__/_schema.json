@@ -1,0 +1,92 @@
+{
+  "version": {
+    "fullVersion": "0.59.7",
+    "major": "0",
+    "minor": "59",
+    "patch": "7"
+  },
+  "meta": {},
+  "collections": [
+    {
+      "label": "Locations",
+      "name": "locations",
+      "path": "_locations",
+      "fields": [
+        {
+          "type": "string",
+          "label": "Title",
+          "name": "title",
+          "namespace": [
+            "locations",
+            "title"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Address",
+          "name": "address",
+          "namespace": [
+            "locations",
+            "address"
+          ]
+        },
+        {
+          "type": "object",
+          "label": "Coords",
+          "name": "coords",
+          "fields": [
+            {
+              "type": "number",
+              "label": "Lat",
+              "name": "lat",
+              "namespace": [
+                "locations",
+                "coords",
+                "lat"
+              ]
+            },
+            {
+              "type": "number",
+              "label": "Lng",
+              "name": "lng",
+              "namespace": [
+                "locations",
+                "coords",
+                "lng"
+              ]
+            }
+          ],
+          "namespace": [
+            "locations",
+            "coords"
+          ]
+        },
+        {
+          "type": "image",
+          "label": "Cover Image",
+          "name": "coverImage",
+          "namespace": [
+            "locations",
+            "coverImage"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Content",
+          "name": "body",
+          "isBody": true,
+          "ui": {
+            "component": "textarea"
+          },
+          "namespace": [
+            "locations",
+            "body"
+          ]
+        }
+      ],
+      "namespace": [
+        "locations"
+      ]
+    }
+  ]
+}

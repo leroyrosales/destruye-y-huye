@@ -1,0 +1,31 @@
+{
+  "DocumentConnection": {
+    "type": "DocumentConnection",
+    "resolveType": "multiCollectionDocumentList",
+    "collections": [
+      "locations"
+    ]
+  },
+  "Node": {
+    "type": "Node",
+    "resolveType": "nodeDocument"
+  },
+  "DocumentNode": {
+    "type": "DocumentNode",
+    "resolveType": "multiCollectionDocument",
+    "createDocument": "create",
+    "updateDocument": "update"
+  },
+  "LocationsDocument": {
+    "type": "LocationsDocument",
+    "resolveType": "collectionDocument",
+    "collection": "locations",
+    "createLocationsDocument": "create",
+    "updateLocationsDocument": "update"
+  },
+  "LocationsConnection": {
+    "type": "LocationsConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "locations"
+  }
+}

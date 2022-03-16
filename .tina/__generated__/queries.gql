@@ -1,0 +1,38 @@
+query getLocationsDocument($relativePath: String!) {
+  getLocationsDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...LocationsParts
+    }
+  }
+}
+
+query getLocationsList {
+  getLocationsList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...LocationsParts
+        }
+      }
+    }
+  }
+}
